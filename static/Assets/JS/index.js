@@ -172,7 +172,7 @@ if (document.body) {
 }
 
 // calculates what to display for countdown timer
-var countDownDate = new Date("Jan 18, 2021 08:00:00").getTime();
+var countDownDate = new Date("Jan 16, 2021 08:00:00").getTime();
 // Update every second
 var x = setInterval(function() {
     var now = new Date().getTime();
@@ -246,4 +246,11 @@ function copyToClipboard(text) {
     dummy.select();
     document.execCommand('copy');
     document.body.removeChild(dummy);
+}
+
+//alert to chrome if opened in ie
+let userAgentString = navigator.userAgent; 
+let IExplorerAgent = userAgentString.indexOf("MSIE") > -1 || userAgentString.indexOf("rv:") > -1; 
+if (IExplorerAgent == true) {
+    alert("Warning: Browser not supported. To view this webpage, we recommend that you use the latest version of Chrome, Firefox, or Safari.");
 }
