@@ -82,6 +82,33 @@ li a{
     background-color: rgb(41, 39, 40);
   }
 
+/* Homepage ----------------------------------------------------------------------------------------------------------------------------*/
+#countdown {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin-left: 65%;
+  margin-right: 8%;
+  font-size: 1.8em;
+  text-align: left;
+}
+
+#countdown span {
+  padding: 0% 3%;
+}
+
+#countdown #dayTimer, #hourTimer, #minTimer, #secTimer {
+  opacity: 0;
+}
+
+#countdown p {
+  margin: 1%;
+}
+
+#countdown .timeUnit {
+  font-size: 1.2rem;
+}
+
+/* Schedule ----------------------------------------------------------------------------------------------------------------------------*/
 #chart {
     width: 50%;
     margin: auto;

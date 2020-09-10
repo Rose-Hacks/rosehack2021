@@ -971,13 +971,12 @@ a, a:visited {
 } */
 
 #about #help {
-	display: -ms-grid;
 	display: grid;
-	-ms-grid-columns: 50% 50%;
-	    grid-template-columns: 50% 50%;
+	grid-template-columns: 50% 50%;
 	padding-top: 0;
 	width: 90%;
 	margin: auto;
+
 	text-transform: uppercase;
 }
 
@@ -985,6 +984,7 @@ a, a:visited {
 	margin: 5% 10%;
 	border-radius: 0.5em;
 	background-color: rgba(255, 255, 255, 0.4);
+	display: block;
 
 	/* border: 0.5% solid #9C9FB7; */
 }
