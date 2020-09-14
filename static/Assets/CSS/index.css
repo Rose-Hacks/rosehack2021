@@ -1492,4 +1492,11 @@ a, a:visited {
 		font-size: 1.5em;
 	}
 
+	#socialMedia h6 {
+		font-size: 0.8em;
+	}
+	
+	#socialMedia #copyright {
+		font-size: 0.6em;
+	}
 }
