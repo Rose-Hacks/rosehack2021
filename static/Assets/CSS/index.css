@@ -848,14 +848,21 @@ a, a:visited {
 }
 
 #quickIcon {
-	text-align: left;
+	/* text-align: left; */
 	/* background-color: rgba(168, 168, 219, 0.35); */
-	padding-left: 2%;
+	/* padding-left: 2%; */
+	display: grid;
+	grid-template-columns: 25% 50%;
 }
 
 #quickIcon span {
 	margin: auto 0.3%;	
 	/* height: 100%; */
+}
+
+#quickIcon #countdown {
+	font-size: 0.6em;
+	/* text-align: center; */
 }
 
 #quickIcon #simpleEmail {
@@ -882,13 +889,6 @@ a, a:visited {
 	padding-top: 15%;
 }
 
-#countdown {
-	font-size: 220%;
-	font-weight: bold;
-    margin: 0;
-    padding-top: 0.5%; 
-	padding-bottom: 0.5%;
-}
 
 #milestones {
 	border-radius: 1.0em;
@@ -905,9 +905,8 @@ a, a:visited {
 }
 
 .milestonesNightBoxColor {
-	/* background-color: rgba(255, 255, 255, 0.15); */
-	background-color: rgba(93, 90, 112, 0.8);
-	/* background-color: red; */
+	background-color: rgba(255, 255, 255, 0.15);
+	/* background-color: rgba(93, 90, 112, 0.8); */
 }
 
 
