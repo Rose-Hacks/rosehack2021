@@ -1471,6 +1471,15 @@ a, a:visited {
 		width: 90%;
 	} 
 
+	#organizers .row {
+		width: 70%;
+	}
+
+	#sponsors .row {
+		grid-template-columns: 50% 50%;
+		margin-top: 5%;
+	}
+
 	#team .row {
 		display: grid;
 		grid-template-columns: 33.3% 33.3% 33.3%;
