@@ -1219,7 +1219,7 @@ a, a:visited {
 
 #team .row {
 	display: grid;
-	grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+	grid-template-columns: 20% 20% 20% 20% 20%;
 	margin: auto;
 	width: 70%;
 }
@@ -1434,6 +1434,11 @@ a, a:visited {
 		display: none;
 	}
 
+	#mlhTag {
+		max-width: 6.5%;
+		min-width: 5%;
+	}
+
 	#balloon03 {
 		opacity: 0.3;
 	}
@@ -1444,12 +1449,12 @@ a, a:visited {
 		left: 12%;
 		top: 50%;
 		opacity: 0.3;
-	  }
+	}
 	  
-	  @keyframes MoveBalloon04 {
+	@keyframes MoveBalloon04 {
 		0%, 100% { top: 53%; left: 7%}
 		50% { top: 48%; left: 10%; }
-	  }
+	}
 
 	#milestones {
 		font-size: 1.5em;
@@ -1471,6 +1476,15 @@ a, a:visited {
 		width: 90%;
 	} 
 
+	#organizers .row {
+		width: 70%;
+	}
+
+	#sponsors .row {
+		grid-template-columns: 50% 50%;
+		margin-top: 5%;
+	}
+
 	#team .row {
 		display: grid;
 		grid-template-columns: 33.3% 33.3% 33.3%;
@@ -1483,4 +1497,11 @@ a, a:visited {
 		font-size: 1.5em;
 	}
 
+	#socialMedia h6 {
+		font-size: 0.8em;
+	}
+	
+	#socialMedia #copyright {
+		font-size: 0.6em;
+	}
 }
