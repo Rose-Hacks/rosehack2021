@@ -1478,4 +1478,9 @@ a, a:visited {
 		width: 75%;
 	}
 
+	#socialMedia a {
+		padding: 0 3%;
+		font-size: 1.5em;
+	}
+
 }
