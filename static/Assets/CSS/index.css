@@ -13,7 +13,7 @@ body {
 	color: #9C9FB7;
 
 	min-width: 50%;
-	font-family: 'Signika', sans-serif;
+	font-family: 'Lora', serif;
 	font-weight: normal;
 	font-size: 25px;
 	letter-spacing: 0.1rem;
@@ -673,7 +673,7 @@ a, a:visited {
 	text-decoration: none;
 	display: inline-block;
 	font-size: 0.6em;
-	font-family: 'Signika', sans-serif;
+	font-family: 'Lora', serif;
 	font-weight: normal;
 	transition-duration: 0.4s;
 	cursor: pointer;

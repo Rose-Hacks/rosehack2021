@@ -11,11 +11,7 @@ var quickIcon = document.getElementById("quickIcon");
 // switches btn day/night theme based on time
 var currentTime = new Date().getHours();
 if (document.body) {
-<<<<<<< HEAD
-    if (7 <= currentTime && currentTime < 23) {
-=======
     if (7 <= currentTime && currentTime < 19) {
->>>>>>> 815fa33cf476ce8b7e0a479b1aff467fee9e5b45
         $(".objectsDay").show();
         $(".objectsNight").hide();
 
