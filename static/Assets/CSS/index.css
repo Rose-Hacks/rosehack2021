@@ -1243,13 +1243,13 @@ a, a:visited {
 #socialMedia {
 	width: 100%;
 	margin: 0;
-	padding: 3% 0 0;
+	padding: 3% 0 1%;
 }
 
 .daySocialMediaBackground {
 	/* background-color: rgba(255, 255, 255, 0.5); */
-	background: url("mountains_only.png");
-	/* opacity: 0.5; */
+	background: url("day-mountains.png");
+	opacity: 0.8;
 	background-size: cover;
 }
 
@@ -1427,7 +1427,7 @@ a, a:visited {
 
 @media only screen and (max-width: 600px) {
 	body {
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	#quickIcon {
@@ -1476,6 +1476,11 @@ a, a:visited {
 		grid-template-columns: 33.3% 33.3% 33.3%;
 		margin: auto;
 		width: 75%;
+	}
+
+	#socialMedia a {
+		padding: 0 3%;
+		font-size: 1.5em;
 	}
 
 }
