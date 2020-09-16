@@ -1249,7 +1249,7 @@ a, a:visited {
 .daySocialMediaBackground {
 	/* background-color: rgba(255, 255, 255, 0.5); */
 	background: url("day-mountains.png");
-	opacity: 0.8;
+	opacity: 1;
 	background-size: cover;
 }
 
@@ -1495,6 +1495,7 @@ a, a:visited {
 	#socialMedia a {
 		padding: 0 3%;
 		font-size: 1.5em;
+		color: #626579;
 	}
 
 	#socialMedia h6 {
