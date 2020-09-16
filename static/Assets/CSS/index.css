@@ -1243,6 +1243,7 @@ a, a:visited {
 #socialMedia {
 	width: 100%;
 	margin: 0;
+	color: #040407;
 	padding: 3% 0 1%;
 }
 
@@ -1257,12 +1258,14 @@ a, a:visited {
 	/* background-color: rgba(255, 255, 255, 0.25); */
 	background: url("mountains_only.png");
 	opacity: 0.4;
+	color: #040407;
 	background-size: cover;
 }
 
 #socialMedia #email {
 	font-size: 0.6em;
 	padding-bottom: 2%;
+	color: #040407;
 }
 
 /* Tooltip container */
@@ -1319,6 +1322,10 @@ a, a:visited {
 	font-size: 0.5em;
 	margin-top: 0.5%;
 	margin-bottom: 0;
+}
+
+footer{
+	color: #040407;
 }
 
 /*CSS for making website adabtable*/
@@ -1495,7 +1502,7 @@ a, a:visited {
 	#socialMedia a {
 		padding: 0 3%;
 		font-size: 1.5em;
-		color: #626579;
+		color: #040407;
 	}
 
 	#socialMedia h6 {
