@@ -339,8 +339,8 @@ body {
   }
   
   @keyframes MoveBalloon01 {
-	0%, 100% { top: 21%; left: 84%}
-	50% { top: 28%; left: 87%; }
+	0%, 100% { top: 15%; left: 87%}
+	50% { top: 20%; left: 84%; }
   }
 
   #balloon02 {
