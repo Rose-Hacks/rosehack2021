@@ -1256,7 +1256,7 @@ a, a:visited {
 .nightSocialMediaBackground {
 	/* background-color: rgba(255, 255, 255, 0.25); */
 	background: url("mountains_only.png");
-	opacity: 0.8;
+	opacity: 0.4;
 	background-size: cover;
 }
 
