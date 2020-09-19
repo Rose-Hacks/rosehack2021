@@ -1264,14 +1264,14 @@ a, a:visited {
 	/* background-color: rgba(255, 255, 255, 0.25); */
 	background: url("mountains_only.png");
 	opacity: 0.4;
-	color: #040407;
 	background-size: cover;
 }
 
 #socialMedia #email {
 	font-size: 0.6em;
 	padding-bottom: 2%;
-	color: #040407;
+	color: #9c9ca8;
+
 }
 
 /* Tooltip container */
@@ -1283,7 +1283,7 @@ a, a:visited {
 .tooltip .tooltiptext {
 	visibility: hidden;
 	width: 40%;
-	background-color: #9C9FB7;
+	background-color: #040407;
 	color: #fff;
 	text-align: center;
 	font-size: 0.75em;
@@ -1511,6 +1511,10 @@ footer{
 		color: #040407;
 	}
 
+	#icons{
+		color: #040407
+	}
+
 	#socialMedia h6 {
 		font-size: 0.8em;
 		color: #040407;
@@ -1518,5 +1522,6 @@ footer{
 	
 	#socialMedia #copyright {
 		font-size: 0.6em;
+		color: #040407;
 	}
 }
