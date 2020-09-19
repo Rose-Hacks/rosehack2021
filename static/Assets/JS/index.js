@@ -2,6 +2,7 @@ var background = document.getElementById("background");
 var milestonesBox = document.getElementById("milestones");
 // temporary, until hero animation is done 
 var title = document.getElementById("title");
+var help = $("#about #help span");
 var stats = document.getElementById("stats");
 var organizers = document.getElementById("organizers");
 var sponsors = document.getElementById("sponsors");
@@ -11,7 +12,7 @@ var quickIcon = document.getElementById("quickIcon");
 // switches btn day/night theme based on time
 var currentTime = new Date().getHours();
 if (document.body) {
-    if (7 <= currentTime && currentTime < 17) {
+    if (7 <= currentTime && currentTime < 19) {
         $(".objectsDay").show();
         $(".objectsNight").hide();
 
@@ -27,6 +28,9 @@ if (document.body) {
 
         quickIcon.classList.remove("titleMatchNightBackground");
         quickIcon.classList.add("titleMatchDayBackground");
+
+        help.removeClass("helpBoxNightBackground");
+        help.addClass("helpBoxDayBackground");
 
         stats.classList.remove("statsNightTheme");
         stats.classList.add("statsDayTheme");
@@ -56,6 +60,9 @@ if (document.body) {
 
         quickIcon.classList.remove("quMatchDayBackground");
         quickIcon.classList.add("titleMatchNightBackground");
+
+        help.removeClass("helpBoxDayBackground");
+        help.addClass("helpBoxNightBackground");
 
         stats.classList.remove("statsDayTheme");
         stats.classList.add("statsNightTheme");
