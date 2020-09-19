@@ -953,7 +953,7 @@ a, a:visited {
 
 #about #aboutUs {
 	text-align: left;
-	/* text-align: justify; */
+	text-align: justify;
 	padding-top: 15%;
 	padding-left: 14%;
 	padding-right: 2%;
@@ -976,6 +976,7 @@ a, a:visited {
 	padding-top: 0;
 	width: 90%;
 	margin: auto;
+	margin-top: 0;
 
 	text-transform: uppercase;
 }
@@ -1118,7 +1119,7 @@ a, a:visited {
 
 #FAQ .row {
 	text-align: left;
-	/* text-align: justify; */
+	text-align: justify;
 	width: 90%;
 } 
 
