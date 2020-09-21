@@ -641,7 +641,7 @@ body {
 }
 
 .nightGradientBackground {
-	background: linear-gradient(rgb(61, 57, 83),  rgb(61, 57, 83), rgb(76, 72, 97), rgba(119, 129, 145, 0.9), rgba(0, 37, 75, 1), rgba(3, 63, 99, 0.8), #001D37);
+	background: linear-gradient(rgb(61, 57, 83), rgb(76, 72, 97), rgba(119, 129, 145, 0.9),  rgba(3, 63, 99, 0.8), rgba(0, 37, 75, 1), rgba(3, 63, 99, 0.8), #001D37);
 }
 
 h1 {
@@ -1015,6 +1015,9 @@ a, a:visited {
 	/* font-size: 100%; */
 }
 
+#barbQuote {
+	color: #adb0c7;
+}
 
 #stats {
 	font-family: 'Nunito', 'serif';
@@ -1024,6 +1027,7 @@ a, a:visited {
 	padding-bottom: 1%;
 	margin-top: 2%;
 	position: relative;
+	color: #adb0c7;
 }
 
 .statsDayTheme {
