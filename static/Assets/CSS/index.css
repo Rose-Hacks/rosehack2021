@@ -1262,12 +1262,12 @@ a, a:visited {
 	padding: 3% 0 1%;
 
 	/* this will affect the "made with" and copyright lines */
-	color: rgb(0, 0, 0);
+	color: #fff;
 }
 
 /* this will affect the socialmedia icons and email lines */
 #socialMedia a, a:visited {
-	color: rgb(0, 0, 0);
+	color: #fff;
 }
 
 .daySocialMediaBackground {
