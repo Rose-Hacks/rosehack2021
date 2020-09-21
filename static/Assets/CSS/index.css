@@ -663,9 +663,8 @@ a, a:visited {
 	text-decoration: none;
 }
 
-#contact.a, #contact.a:visited {
-	color: #fff;
-	text-decoration: none;
+#contact a, a:visited {
+	color: #9C9FB7;;
 }
 
 .button {
@@ -1259,12 +1258,12 @@ a, a:visited {
 	padding: 3% 0 1%;
 
 	/* this will affect the "made with" and copyright lines */
-	color: #fff;
+	color: rgb(0, 0, 0);
 }
 
 /* this will affect the socialmedia icons and email lines */
 #socialMedia a, a:visited {
-	color: #f00;
+	color: rgb(0, 0, 0);
 }
 
 .daySocialMediaBackground {
