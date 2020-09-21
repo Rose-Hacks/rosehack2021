@@ -658,23 +658,14 @@ hr {
 	width: 90%;
 }
 
-/* .a, .a:visited {
-	color: #040407;
+a, a:visited {
+	color: #9C9FB7;
 	text-decoration: none;
-} */
+}
 
 #contact.a, #contact.a:visited {
-	color: #040407;
+	color: #fff;
 	text-decoration: none;
-}
-
-
-#help{
-	color: #9C9FB7;
-}
-
-#simpleEmail{
-	color: #040407;
 }
 
 .button {
@@ -1265,8 +1256,15 @@ hr {
 #socialMedia {
 	width: 100%;
 	margin: 0;
-	color: #040407;
 	padding: 3% 0 1%;
+
+	/* this will affect the "made with" and copyright lines */
+	color: #fff;
+}
+
+/* this will affect the socialmedia icons and email lines */
+#socialMedia a, a:visited {
+	color: #f00;
 }
 
 .daySocialMediaBackground {
@@ -1286,8 +1284,7 @@ hr {
 #socialMedia #email {
 	font-size: 0.6em;
 	padding-bottom: 2%;
-	color: #9c9ca8;
-
+	/* color: #9c9ca8; */
 }
 
 /* Tooltip container */
@@ -1344,10 +1341,6 @@ hr {
 	font-size: 0.5em;
 	margin-top: 0.5%;
 	margin-bottom: 0;
-}
-
-footer{
-	color: #040407;
 }
 
 /*CSS for making website adabtable*/
@@ -1523,10 +1516,8 @@ footer{
 
 	#socialMedia a {
 		padding: 0 3%;
-		font-size: 1.5em;
-		
+		font-size: 1.5em;	
 	}
-
 	
 	#email.a{
 		color: #040407;
