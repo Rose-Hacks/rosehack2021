@@ -13,7 +13,7 @@ body {
 	color: #9C9FB7;
 
 	min-width: 50%;
-	font-family: 'Lora', serif;
+	font-family: 'Nunito', serif;
 	font-weight: normal;
 	font-size: 25px;
 	letter-spacing: 0.1rem;
@@ -962,11 +962,12 @@ a, a:visited {
 	    grid-template-columns: 45% 55%;
 	margin-bottom: 8%;
 	position: relative;
+	font-family: 'Lora';
 }
 
 #about #aboutUs {
 	text-align: left;
-	/* text-align: justify; */
+	text-align: justify;
 	padding-top: 15%;
 	padding-left: 14%;
 	padding-right: 2%;
@@ -989,6 +990,7 @@ a, a:visited {
 	padding-top: 0;
 	width: 90%;
 	margin: auto;
+	margin-top: 0;
 
 	text-transform: uppercase;
 }
@@ -1131,7 +1133,7 @@ a, a:visited {
 
 #FAQ .row {
 	text-align: left;
-	/* text-align: justify; */
+	text-align: justify;
 	width: 90%;
 } 
 
