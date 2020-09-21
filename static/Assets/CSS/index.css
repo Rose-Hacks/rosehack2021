@@ -13,7 +13,7 @@ body {
 	color: #9C9FB7;
 
 	min-width: 50%;
-	font-family: 'Nunito', serif;
+	font-family: 'Lora', serif;
 	font-weight: normal;
 	font-size: 25px;
 	letter-spacing: 0.1rem;
@@ -963,12 +963,11 @@ hr {
 	    grid-template-columns: 45% 55%;
 	margin-bottom: 8%;
 	position: relative;
-	font-family: 'Lora';
 }
 
 #about #aboutUs {
 	text-align: left;
-	text-align: justify;
+	/* text-align: justify; */
 	padding-top: 15%;
 	padding-left: 14%;
 	padding-right: 2%;
@@ -1027,6 +1026,7 @@ hr {
 
 
 #stats {
+	font-family: 'Nunito', 'serif';
 	width: 100%;
 	margin-bottom: 12%;
 	padding-top: 1%;
