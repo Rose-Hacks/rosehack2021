@@ -1263,7 +1263,7 @@ a, a:visited {
 }
 
 /* this will affect the socialmedia icons and email lines */
-#socialMedia a, a:visited {
+#socialMedia a, #socialMedia a:visited {
 	color: #f00;
 }
 
