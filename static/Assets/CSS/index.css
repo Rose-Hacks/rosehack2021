@@ -659,8 +659,21 @@ hr {
 }
 
 a, a:visited {
-	color: #9C9FB7;
+	color: #040407;
 	text-decoration: none;
+}
+
+#contact {
+	color: #040407;
+	text-decoration: none;
+}
+
+#help{
+	color: #9C9FB7;
+}
+
+#simpleEmail{
+	color: #040407;
 }
 
 .button {
@@ -1508,12 +1521,10 @@ footer{
 	#socialMedia a {
 		padding: 0 3%;
 		font-size: 1.5em;
-		color: #040407;
+		
 	}
 
-	icons.a, icons.a:visited{
-		color: #040407;
-	}
+	
 	#email.a{
 		color: #040407;
 	}
