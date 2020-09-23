@@ -1249,7 +1249,7 @@ th, td {
   .buttonCom {
 	background-color: #695579; /* Green */
 	border: none;
-	border-radius: 6%;
+	border-radius: 8px;
 	color: #9C9FB7;
 	padding: 3% 2%;
 	text-align: center;
