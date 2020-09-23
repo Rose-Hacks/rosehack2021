@@ -1247,10 +1247,11 @@ th, td {
   }
 
   .buttonCom {
-	background-color: #695579; /* Green */
+	background-color: #ffffff; /* Green */
+	opacity:0.3;
 	border: none;
 	border-radius: 8px;
-	color: #9C9FB7;
+	color:#262733;
 	padding: 3% 2%;
 	text-align: center;
 	text-decoration: none;
@@ -1265,7 +1266,7 @@ th, td {
   
 .buttonCom:hover {
 	background-color: #7e6983;
-	color: #a0a2b4;
+	color: #ffffff;
 }
 
 #team {
