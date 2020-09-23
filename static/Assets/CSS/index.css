@@ -1260,23 +1260,14 @@ a, a:visited {
 	width: 100%;
 	margin: 0;
 	padding: 3% 0 1%;
+}
 
-	/* this will affect the "made with" and copyright lines */
-	/* color: #fff; */
+.daySocialMediaColor {
 	color: #888a99;
 }
 
-.socialMediaDayBackground {
-
-}
-
-.socialMediaNightBackground {
-
-}
-
-/* this will affect the socialmedia icons and email lines */
-#socialMedia a, #socialMedia a:visited {
-	/* color: #fff; */
+.nightSocialMediaColor {
+	color: #fff;
 }
 
 .daySocialMediaBackground {

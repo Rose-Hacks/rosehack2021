@@ -12,7 +12,7 @@ var quickIcon = document.getElementById("quickIcon");
 // switches btn day/night theme based on time
 var currentTime = new Date().getHours();
 if (document.body) {
-    if (7 <= currentTime && currentTime < 19) {
+    if (7 <= currentTime && currentTime < 10) {
         $(".objectsDay").show();
         $(".objectsNight").hide();
 
@@ -43,6 +43,9 @@ if (document.body) {
 
         socialMedia.classList.remove("nightSocialMediaBackground");
         socialMedia.classList.add("daySocialMediaBackground");
+
+        socialMedia.classList.remove("nightSocialMediaColor");
+        socialMedia.classList.add("daySocialMediaColor");
     }
     else {
         // night theme
@@ -76,6 +79,9 @@ if (document.body) {
         socialMedia.classList.remove("daySocialMediaBackground");
         socialMedia.classList.add("nightSocialMediaBackground");
         
+        socialMedia.classList.remove("daySocialMediaColor");
+        socialMedia.classList.add("nightSocialMediaColor");
+
         // setTimeout(function() {
         var intervalID = window.setInterval(function() {
             $("#imgBack").fadeToggle(3000);
