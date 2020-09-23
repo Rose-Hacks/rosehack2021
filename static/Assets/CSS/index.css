@@ -1259,6 +1259,7 @@ th, td {
 	font-weight: normal;
 	transition-duration: 0.4s;
 	cursor: pointer;
+	width: 75%;
 }
   
 .buttonCom:hover {
