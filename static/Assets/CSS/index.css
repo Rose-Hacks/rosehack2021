@@ -1245,6 +1245,27 @@ th, td {
 	text-align: left;
   }
 
+  .buttonCom {
+	background-color: #695579; /* Green */
+	border: none;
+	border-radius: 5%;
+	color: white;
+	padding: 1% 2%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 0.8em;
+	font-family: 'Lora', serif;
+	font-weight: normal;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+  
+.buttonCom:hover {
+	background-color: #7e6983;
+	color: white;
+}
+
 #team {
 	position: relative;
 }
