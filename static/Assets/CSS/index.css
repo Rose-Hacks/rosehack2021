@@ -1532,18 +1532,14 @@ th, td {
 		padding: 0 3%;
 		font-size: 1.5em;	
 	}
-	
-	#email.a{
-		color: #040407;
-	}
 
 	#socialMedia h6 {
 		font-size: 0.8em;
-		color: #040407;
+		/* color: #040407; */
 	}
 	
 	#socialMedia #copyright {
 		font-size: 0.6em;
-		color: #040407;
+		/* color: #040407; */
 	}
 }
