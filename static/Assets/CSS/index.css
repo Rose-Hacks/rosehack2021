@@ -1229,6 +1229,17 @@ a, a:visited {
 	width: 100%;
 }
 
+table{
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 7%;
+}
+
+th, td {
+	padding: 15px;
+	text-align: left;
+  }
+
 #team {
 	position: relative;
 }
