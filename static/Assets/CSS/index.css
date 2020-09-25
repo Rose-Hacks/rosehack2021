@@ -5,6 +5,11 @@
 	src: url(Alvania.ttf);
 }
 
+@font-face {
+	font-family: lora;
+	src: url(Lora-MediumItalic.ttf);
+}
+
 body {
 	/*don't know if some components rely on the body's little margin as restrictions,
 	but footer needs to go all the way across*/
@@ -18,7 +23,8 @@ body {
 	color: #9C9FB7;
 
 	min-width: 50%;
-	font-family: 'Lora', serif;
+	font-family: lora;
+	/* font-family: 'Lora', serif; */
 	font-weight: normal;
 	font-size: 25px;
 	letter-spacing: 0.1rem;
