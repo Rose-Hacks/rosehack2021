@@ -1310,6 +1310,7 @@ a, a:visited {
 #committee{
 	width: 80%;
 	margin: auto;
+	padding-bottom: 6%;
 }
 
 #committee .row {
