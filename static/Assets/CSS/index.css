@@ -505,6 +505,8 @@ h1, h2, h3 {
   #animal01 {
 	animation: MoveAnimal01 19s linear infinite;
 	position: absolute;
+	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
 	left: 85%;
 	top: 21%;
 	opacity: 0.4;
@@ -531,6 +533,8 @@ h1, h2, h3 {
   #animal03 {
 	animation: MoveAnimal03 16s linear infinite;
 	position: absolute;
+	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
 	left: 25%;
 	top: 100%;
 	opacity: 0.6;
@@ -557,6 +561,8 @@ h1, h2, h3 {
   #animal05 {
 	animation: MoveAnimal05 16s linear infinite;
 	position: absolute;
+	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
 	left: 80%;
 	top: 78%;
 	opacity: 0.25;
@@ -609,6 +615,8 @@ h1, h2, h3 {
   #animal10 {
 	animation: MoveAnimal10 19s linear infinite;
 	position: absolute;
+	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
 	left: 87%;
 	top: -5%;
 	opacity: 0.8;
@@ -635,6 +643,8 @@ h1, h2, h3 {
   #animal12 {
 	animation: MoveAnimal12 19s linear infinite;
 	position: absolute;
+	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
 	left: -1%;
 	top: 70%;
 	opacity: 0.65;
