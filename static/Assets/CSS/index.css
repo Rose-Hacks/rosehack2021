@@ -1269,7 +1269,9 @@ a, a:visited {
 }
 
 #sponsors .row {
+	/* for when there are more sponsors */
 	grid-template-columns: 33% 33% 33%;
+
 	margin-top: 5%;
 }
 
