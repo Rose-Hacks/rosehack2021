@@ -1299,18 +1299,22 @@ a, a:visited {
 	margin: auto;
 }
 
-table{
+#committee .row {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+/* table{
 	margin-right: 10%;
 	margin-left: 10%;
 	margin-bottom: 7%;
-}
+} */
 
-th, td {
+/* th, td {
 	padding: 15px;
 	text-align: left;
-  }
+  } */
 
-  .buttonCom {
+.buttonCom {
 	background-color: #ffffff; /* Green */
 	opacity:0.3;
 	border: none;
@@ -1325,7 +1329,7 @@ th, td {
 	font-weight: normal;
 	transition-duration: 0.4s;
 	cursor: pointer;
-	width: 75%;
+	width: 90%;
 }
   
 .buttonCom:hover {
