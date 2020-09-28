@@ -992,7 +992,8 @@ a, a:visited {
 #about #help {
 	display: grid;
 	grid-template-columns: 50% 50%;
-	padding-top: 0;
+	/* grid-template-rows: 40% 40%; */
+	padding: 0;
 	width: 90%;
 	margin: auto;
 	margin-top: 0;
@@ -1000,10 +1001,60 @@ a, a:visited {
 	text-transform: uppercase;
 }
 
-#about #help span {
-	margin: 5% 10%;
-	border-radius: 0.5em;
-	display: block;
+#help span{
+	width: 75%;
+	padding: 1%;
+	margin: 10% auto;
+	border-radius: 0.3em;
+	/* vertical-align: middle; */
+}
+
+#help .row {
+	/* width: 60%; */
+}
+
+#help span {
+	/* width: 55%; */
+	/* margin: auto; */
+}
+
+#help .helpIcon {
+	/* width: 100%; */
+}
+
+#about #help .helpBox {
+	/* margin: 5% 10%; */
+	/* padding: 1%; */
+	/* border-radius: 0.5em; */
+	/* display: block; */
+	/* vertical-align: middle; */
+}
+
+#about #help .grow {
+	/* height: 100%; */
+	/* padding: 1%; */
+	/* heigh: 80%; */
+	/* margin: auto; */
+}
+
+#about #help a {
+	/* height: 100%; */
+	/* width: 100%; */
+}
+
+#about #help img {
+	padding: 4%;
+	/* margin: 4%; */
+	/* text-align: center; */
+	/* margin: auto; */
+	/* margin-top: auto; */
+	/* position: relative; */
+	/* vertical-align: middle; */
+}
+
+#about #help #workshop {
+	height: 65%;
+	padding-top: 10%;
 }
 
 .helpBoxDayBackground {
@@ -1017,7 +1068,7 @@ a, a:visited {
 #about #help div {
 	/* width: 60%; */
 	/* height: 90%; */
-	margin: 8% auto;
+	/* margin: 8% auto; */
 	/* padding: 7%; */
 	/* width: 80%; */
 	/* height: 80%; */
@@ -1248,18 +1299,23 @@ a, a:visited {
 	margin: auto;
 }
 
-table{
+#committee .row {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+
+/* table{
 	margin-right: 10%;
 	margin-left: 10%;
 	margin-bottom: 7%;
-}
+} */
 
-th, td {
+/* th, td {
 	padding: 15px;
 	text-align: left;
-  }
+  } */
 
-  .buttonCom {
+.buttonCom {
 	background-color: #ffffff; /* Green */
 	opacity:0.3;
 	border: none;
@@ -1274,7 +1330,12 @@ th, td {
 	font-weight: normal;
 	transition-duration: 0.4s;
 	cursor: pointer;
-	width: 75%;
+	width: 90%;
+	margin: auto;
+}
+
+#committee span {
+	height: 100%;
 }
   
 .buttonCom:hover {
@@ -1501,6 +1562,13 @@ th, td {
 		/* height: 200px;  */
 		margin: auto;
 	}
+
+	#committee .row {
+		display: grid;
+		grid-template-columns: 100%;
+		width: 60%;
+	}
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -1563,6 +1631,10 @@ th, td {
 		margin-top: 5%;
 	}
 
+	#committee .row {
+		width: 80%;
+	}
+	
 	#team .row {
 		display: grid;
 		grid-template-columns: 33.3% 33.3% 33.3%;
