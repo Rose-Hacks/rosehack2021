@@ -1303,6 +1303,7 @@ a, a:visited {
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
 }
+
 /* table{
 	margin-right: 10%;
 	margin-left: 10%;
@@ -1330,6 +1331,11 @@ a, a:visited {
 	transition-duration: 0.4s;
 	cursor: pointer;
 	width: 90%;
+	margin: auto;
+}
+
+#committee span {
+	height: 100%;
 }
   
 .buttonCom:hover {
@@ -1556,6 +1562,13 @@ a, a:visited {
 		/* height: 200px;  */
 		margin: auto;
 	}
+
+	#committee .row {
+		display: grid;
+		grid-template-columns: 100%;
+		width: 60%;
+	}
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -1618,6 +1631,10 @@ a, a:visited {
 		margin-top: 5%;
 	}
 
+	#committee .row {
+		width: 80%;
+	}
+	
 	#team .row {
 		display: grid;
 		grid-template-columns: 33.3% 33.3% 33.3%;
