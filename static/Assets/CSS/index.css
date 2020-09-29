@@ -1662,7 +1662,7 @@ a, a:visited {
 		display: grid;
 		grid-template-columns: 33.3% 33.3% 33.3%;
 		margin: auto;
-		width: 75%;
+		width: 85%;
 	}
 
 	#team .picrew {
