@@ -695,7 +695,7 @@ a, a:visited {
 .button {
 	background-color: #e096d6; /* Green */
 	border: none;
-	border-radius: 5%;
+	border-radius: 5px;
 	color: white;
 	padding: 1% 2%;
 	text-align: center;
@@ -707,7 +707,11 @@ a, a:visited {
 	transition-duration: 0.4s;
 	cursor: pointer;
 }
-  
+
+.button:active, .button:focus {
+	outline-width: 0;
+}
+
 .button:hover {
 	background-color: #e277d4;
 	color: white;
