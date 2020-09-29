@@ -1665,6 +1665,11 @@ a, a:visited {
 		width: 75%;
 	}
 
+	#team .picrew {
+		width: 80px;
+		height: 80px;
+	}
+
 	#socialMedia a {
 		padding: 0 3%;
 		font-size: 1.5em;	
