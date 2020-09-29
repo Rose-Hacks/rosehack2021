@@ -1349,10 +1349,7 @@ a, a:visited {
 }
 
 #committee .buttonCom:active, .buttonCom:focus {
-	border-color: rgba(255, 255, 255, 0);
-	outline-color: rgba(255, 255, 255, 0);
-	/* border-radius: 0.3em; */
-	/* background-color: red; */
+	outline-width: 0;
 }
 
 #committee span {
