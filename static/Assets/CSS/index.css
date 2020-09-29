@@ -1591,7 +1591,18 @@ a, a:visited {
 		grid-template-columns: 100%;
 		width: 60%;
 	}
+	
+	#team .row {
+		display: grid;
+		grid-template-columns: 33.3% 33.3% 33.3%;
+		margin: auto;
+		width: 80%;
+	}
 
+	#team .picrew {
+		width: 100px;
+		height: 100px;
+	}
 }
 
 @media only screen and (max-width: 600px) {
