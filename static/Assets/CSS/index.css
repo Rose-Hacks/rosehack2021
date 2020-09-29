@@ -1384,8 +1384,8 @@ a, a:visited {
 
 #team .picrew {
 	border-radius: 50%;
-	width: 55%;
-	height: 55%;
+	width: 125px;
+	height: 125px;
 	border: 2px solid white;
 }
 
