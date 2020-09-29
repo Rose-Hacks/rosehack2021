@@ -1348,6 +1348,13 @@ a, a:visited {
 	margin: auto;
 }
 
+#committee .buttonCom:active, .buttonCom:focus {
+	border-color: rgba(255, 255, 255, 0);
+	outline-color: rgba(255, 255, 255, 0);
+	/* border-radius: 0.3em; */
+	/* background-color: red; */
+}
+
 #committee span {
 	height: 100%;
 }
@@ -1378,6 +1385,7 @@ a, a:visited {
 	border-radius: 50%;
 	width: 55%;
 	height: 55%;
+	border: 2px solid black;
 }
 
 #team h6 {
