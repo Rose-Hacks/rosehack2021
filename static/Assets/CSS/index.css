@@ -1067,7 +1067,7 @@ a, a:visited {
 }
 
 #about #help #workshop {
-	height: 65%;
+	/* height: 65%; */
 	padding-top: 10%;
 }
 
