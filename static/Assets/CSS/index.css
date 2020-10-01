@@ -896,6 +896,7 @@ a, a:visited {
 	display: grid;
 	grid-template-columns: 25% 50%;
 	position: relative;
+	color: #d1d3e3;
 }
 
 #quickIcon span {
@@ -906,6 +907,10 @@ a, a:visited {
 #quickIcon #countdown {
 	font-size: 0.6em;
 	/* text-align: center; */
+}
+
+#quickcontact a, a:visited {
+	color: #d1d3e3;
 }
 
 #quickIcon #simpleEmail {
@@ -920,11 +925,12 @@ a, a:visited {
 }
 
 #title {
-	
 	font-size: 1.3em;
 	/* height: 100vh; */
 	margin: 0;
-	padding: 0 0 11.7%;
+	padding: 0 0 15.5%;
+
+	/* color: #d1d3e3; */
 }
 
 .titleMatchDayBackground {
@@ -936,7 +942,8 @@ a, a:visited {
 }
 
 #title h1 {
-	padding-top: 15%;
+	padding-top: 11%;
+	margin-bottom 5%;
 }
 
 
