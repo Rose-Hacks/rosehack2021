@@ -662,7 +662,7 @@ h1, h2, h3 {
 
 .dayGradientBackground {
 	background: -webkit-linear-gradient(rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3));
-	background: linear-gradient(rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3));
+	background: linear-gradient(#fad8bc, rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3));
 }
 
 .nightGradientBackground {
@@ -913,7 +913,7 @@ a, a:visited {
 }
 
 #firstScreen {
-	background-image: url("Animation2021.png");
+	background-image: url("Animation2021_HQ.png");
 	background-size: cover;
 	width: 100%;
 	height: 100%;
