@@ -693,17 +693,18 @@ a, a:visited {
 }
 
 .button {
-	background-color: #e096d6; /* Green */
+	background-color: #fff; 
+	opacity: 0.3;
 	border: none;
 	border-radius: 5px;
-	color: white;
+	color: #043482;
 	padding: 1% 2%;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 0.6em;
 	font-family: 'Lora', serif;
-	font-weight: normal;
+	font-weight: bold;
 	transition-duration: 0.4s;
 	cursor: pointer;
 }
@@ -713,7 +714,7 @@ a, a:visited {
 }
 
 .button:hover {
-	background-color: #e277d4;
+	background-color: #043482;
 	color: white;
 }
 
@@ -1358,7 +1359,7 @@ a, a:visited {
   } */
 
 .buttonCom {
-	background-color: #ffffff; /* Green */
+	background-color: #ffffff; 
 	opacity:0.3;
 	border: none;
 	border-radius: 8px;
