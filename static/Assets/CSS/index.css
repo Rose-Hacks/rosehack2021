@@ -751,6 +751,15 @@ a, a:visited {
 	transition: all .40s ease;
 }
 
+#hero {
+	position: absolute;
+	/* height: 100%; */
+	top: 0%; /*0=top of #background*/
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
 #imgBack {
 	position: absolute;
 	top: 0%; /*0=top of #background*/
@@ -886,6 +895,7 @@ a, a:visited {
 	/* padding-left: 2%; */
 	display: grid;
 	grid-template-columns: 25% 50%;
+	position: relative;
 }
 
 #quickIcon span {
@@ -902,20 +912,27 @@ a, a:visited {
 	font-size: 0.6em;
 }
 
+#firstScreen {
+	background-image: url("Animation2021.png");
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
 #title {
+	
 	font-size: 1.3em;
-	height: 100vh;
+	/* height: 100vh; */
 	margin: 0;
-	padding: 0;
+	padding: 0 0 11.7%;
 }
 
 .titleMatchDayBackground {
-	background-color: rgba(168, 168, 219, 0.35);
+	/* background-color: rgba(168, 168, 219, 0.35); */
 }
 
 .titleMatchNightBackground {
-	background: rgb(61, 57, 83);
-	background-size: cover;
+	/* background: rgb(61, 57, 83); */
 }
 
 #title h1 {
