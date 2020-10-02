@@ -985,8 +985,8 @@ a, a:visited {
 	/* text-align: center; */
 }
 
-#quickcontact a, a:visited {
-	color:#9C9FB7;
+#quickcontact a, #quickcontact a:visited {
+	color:#fff;
 }
 
 #quickIcon #simpleEmail {
