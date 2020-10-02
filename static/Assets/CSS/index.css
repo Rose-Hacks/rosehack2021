@@ -751,7 +751,7 @@ a, a:visited {
 }
 
 #contact a, a:visited {
-	color: #9C9FB7;;
+	color: #ffffff;
 }
 
 .button {
@@ -959,7 +959,7 @@ a, a:visited {
 	display: grid;
 	grid-template-columns: 25% 50%;
 	position: relative;
-	color: #d1d3e3;
+	color:#f0f1f5;
 }
 
 #quickIcon span {
@@ -973,7 +973,7 @@ a, a:visited {
 }
 
 #quickcontact a, a:visited {
-	color: #d1d3e3;
+	color: #f0f1f5;
 }
 
 #quickIcon #simpleEmail {
