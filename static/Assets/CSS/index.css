@@ -755,17 +755,18 @@ a, a:visited {
 }
 
 .button {
-	background-color: #e096d6; /* Green */
+	background-color: #fff; 
+	opacity: 0.3;
 	border: none;
 	border-radius: 5px;
-	color: white;
+	color: #043482;
 	padding: 1% 2%;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 0.6em;
 	font-family: 'Lora', serif;
-	font-weight: normal;
+	font-weight: bold;
 	transition-duration: 0.4s;
 	cursor: pointer;
 }
@@ -775,7 +776,7 @@ a, a:visited {
 }
 
 .button:hover {
-	background-color: #e277d4;
+	background-color: #043482;
 	color: white;
 }
 
@@ -958,6 +959,7 @@ a, a:visited {
 	display: grid;
 	grid-template-columns: 25% 50%;
 	position: relative;
+	color: #d1d3e3;
 }
 
 #quickIcon span {
@@ -968,6 +970,10 @@ a, a:visited {
 #quickIcon #countdown {
 	font-size: 0.6em;
 	/* text-align: center; */
+}
+
+#quickcontact a, a:visited {
+	color: #d1d3e3;
 }
 
 #quickIcon #simpleEmail {
@@ -982,11 +988,12 @@ a, a:visited {
 }
 
 #title {
-	
 	font-size: 1.3em;
 	/* height: 100vh; */
 	margin: 0;
-	padding: 0 0 11.7%;
+	padding: 0 0 15.5%;
+
+	/* color: #d1d3e3; */
 }
 
 .titleMatchDayBackground {
@@ -998,7 +1005,8 @@ a, a:visited {
 }
 
 #title h1 {
-	padding-top: 15%;
+	padding-top: 11%;
+	margin-bottom 5%;
 }
 
 
@@ -1413,7 +1421,7 @@ a, a:visited {
   } */
 
 .buttonCom {
-	background-color: #ffffff; /* Green */
+	background-color: #ffffff; 
 	opacity:0.3;
 	border: none;
 	border-radius: 8px;
