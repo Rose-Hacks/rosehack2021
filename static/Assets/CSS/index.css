@@ -152,12 +152,12 @@ h1, h2, h3 {
 	position: absolute;
 	left: 70%;
 	top: -1%;
-	opacity: 0.5;
+	opacity: 0.7;
   }
   
   @keyframes MoveUpDown5 {
 	0%, 100% { top: -4%; left: 72%}
-	50% { top: 1%; left: 68%; }
+	50% { top: -1%; left: 69%; }
   }
 
   /* @keyframes MoveUpDown5 {
@@ -174,8 +174,8 @@ h1, h2, h3 {
   }
   
   @keyframes MoveUpDown5-5 {
-	0%, 100% { top: 3%; left: 49%}
-	50% { top: -1%; left: 53%; }
+	0%, 100% { top: 4%; left: 47%}
+	50% { top: 1%; left: 52%; }
   }
 
   /* @keyframes MoveUpDown5-5 {
@@ -210,8 +210,8 @@ h1, h2, h3 {
   }
   
   @keyframes MoveUpDown5-7 {
-	0%, 100% { top: -2%; left: 11%}
-	50% { top: 2%; left: 2%; }
+	0%, 100% { top: 5%; left: 3%}
+	50% { top: -1%; left: -3%; }
   }
 
   /* @keyframes MoveUpDown5-7 {
@@ -220,16 +220,29 @@ h1, h2, h3 {
   } */
 
   #cloud5-11 {
-	animation: MoveUpDown5-11 9s linear infinite;
+	animation: MoveUpDown5-11 15s linear infinite;
 	position: absolute;
 	left: 70%;
 	top: -1%;
-	opacity: 0.5;
+	opacity: 0.8;
   }
   
   @keyframes MoveUpDown5-11 {
-	0%, 100% { top: -4%; left: 43%}
-	50% { top: 1%; left: 48%; }
+	0%, 100% { top: -7%; left: 21%}
+	50% { top: -3%; left: 24%; }
+  }
+
+  #cloud5-12 {
+	animation: MoveUpDown5-12 12s linear infinite;
+	position: absolute;
+	left: 70%;
+	top: -1%;
+	opacity: 0.8;
+  }
+  
+  @keyframes MoveUpDown5-12 {
+	0%, 100% { top: -7%; left: 10%}
+	50% { top: -3%; left: 6%; }
   }
 
   #cloud5-8 {
@@ -237,12 +250,12 @@ h1, h2, h3 {
 	position: absolute;
 	left: 55%;
 	top: 0%;
-	opacity: 0.55;
+	opacity: 0.8;
   }
   
   @keyframes MoveUpDown5-8 {
-	0%, 100% { top: 3%; left: 79%}
-	50% { top: -1%; left: 83%; }
+	0%, 100% { top: -4%; left: 89%}
+	50% { top: -2%; left: 85%; }
   }
 
   /* @keyframes MoveUpDown5-5 {
@@ -255,12 +268,12 @@ h1, h2, h3 {
 	position: absolute;
 	left: 42%;
 	top: -3%;
-	opacity: 0.3;
+	opacity: 0.65;
   }
   
   @keyframes MoveUpDown5-9 {
-	0%, 100% { top: 6%; left: 51%}
-	50% { top: 2%; left: 45%; }
+	0%, 100% { top: -2%; left: 52%}
+	50% { top: -4%; left: 55%; }
   }
 
   /* @keyframes MoveUpDown5-6 {
@@ -273,12 +286,12 @@ h1, h2, h3 {
 	position: absolute;
 	left: 37%;
 	top: -1%;
-	opacity: 0.6;
+	opacity: 0.7;
   }
   
   @keyframes MoveUpDown5-10 {
-	0%, 100% { top: -8%; left: 40%}
-	50% { top: -4%; left: 32%; }
+	0%, 100% { top: -6%; left: 42%}
+	50% { top: -4%; left: 38%; }
   }
 
   #cloud6 {
