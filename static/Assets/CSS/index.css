@@ -11,7 +11,7 @@
 }
 
 #animation{
-	background: linear-gradient(rgba(183, 212, 221, 0.35),rgba(238, 227, 163, 0.35),#fad8bc);
+	background: linear-gradient(rgba(133, 172, 184, 0.35),rgba(168, 151, 214, 0.35),rgba(240, 163, 149, 0.35),#fad8bc,rgba(241, 221, 155, 0.35));
 }
 
 body {
@@ -740,8 +740,8 @@ h1, h2, h3 {
 } */
 
 .dayGradientBackground {
-	background: -webkit-linear-gradient(#fad8bc,rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3));
-	background: linear-gradient(#fad8bc, rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3));
+	background: -webkit-linear-gradient(rgba(241, 221, 155, 0.35),rgba(241, 206, 174, 0.35), rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3));
+	background: linear-gradient(rgba(241, 221, 155, 0.35), rgba(241, 206, 174, 0.35),rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3));
 }
 
 .nightGradientBackground {
