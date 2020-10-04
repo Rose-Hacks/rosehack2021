@@ -10,6 +10,10 @@
 	src: url(Lora-MediumItalic.ttf);
 }
 
+#animation{
+	background: linear-gradient(rgba(183, 212, 221, 0.35),rgba(238, 227, 163, 0.35),#fad8bc);
+}
+
 body {
 	/*don't know if some components rely on the body's little margin as restrictions,
 	but footer needs to go all the way across*/
@@ -736,7 +740,7 @@ h1, h2, h3 {
 } */
 
 .dayGradientBackground {
-	background: -webkit-linear-gradient(rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3));
+	background: -webkit-linear-gradient(#fad8bc,rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3));
 	background: linear-gradient(#fad8bc, rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3));
 }
 
