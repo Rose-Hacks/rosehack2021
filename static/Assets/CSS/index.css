@@ -11,7 +11,7 @@
 }
 
 #animation{
-	background: linear-gradient(rgba(133, 172, 184, 0.35),rgba(168, 151, 214, 0.35),rgba(240, 163, 149, 0.35),#fad8bc,rgba(241, 221, 155, 0.35));
+	background: linear-gradient(rgb(137, 182, 207),rgb(166, 186, 215),rgb(174, 188, 217),rgb(203, 198, 210),rgb(235, 209, 202),rgb(250, 223, 192),rgb(254, 242, 210));
 }
 
 body {
@@ -160,8 +160,8 @@ h1, h2, h3 {
   }
   
   @keyframes MoveUpDown5 {
-	0%, 100% { top: -4%; left: 72%}
-	50% { top: -1%; left: 69%; }
+	0%, 100% { top: -7%; left: 72%}
+	50% { top: -4%; left: 69%; }
   }
 
   /* @keyframes MoveUpDown5 {
@@ -245,8 +245,8 @@ h1, h2, h3 {
   }
   
   @keyframes MoveUpDown5-12 {
-	0%, 100% { top: -7%; left: 10%}
-	50% { top: -3%; left: 6%; }
+	0%, 100% { top: -16%; left: 6%}
+	50% { top: -12%; left: 2%; }
   }
 
   #cloud5-8 {
@@ -276,8 +276,8 @@ h1, h2, h3 {
   }
   
   @keyframes MoveUpDown5-9 {
-	0%, 100% { top: -2%; left: 52%}
-	50% { top: -4%; left: 55%; }
+	0%, 100% { top: -8%; left: 52%}
+	50% { top: -6%; left: 55%; }
   }
 
   /* @keyframes MoveUpDown5-6 {
@@ -294,8 +294,8 @@ h1, h2, h3 {
   }
   
   @keyframes MoveUpDown5-10 {
-	0%, 100% { top: -6%; left: 42%}
-	50% { top: -4%; left: 38%; }
+	0%, 100% { top: -16%; left: 42%}
+	50% { top: -14%; left: 38%; }
   }
 
   #cloud6 {
@@ -740,8 +740,8 @@ h1, h2, h3 {
 } */
 
 .dayGradientBackground {
-	background: -webkit-linear-gradient(rgba(241, 221, 155, 0.35),rgba(241, 206, 174, 0.35), rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3));
-	background: linear-gradient(rgba(241, 221, 155, 0.35), rgba(241, 206, 174, 0.35),rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3));
+	background: -webkit-linear-gradient(rgb(254, 242, 210), rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3));
+	background: linear-gradient(rgb(254, 242, 210),rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3));
 }
 
 .nightGradientBackground {
@@ -1023,7 +1023,7 @@ a, a:visited {
 
 #title h1 {
 	padding-top: 11%;
-	margin-bottom 5%;
+	margin-bottom: 5%;
 }
 
 
