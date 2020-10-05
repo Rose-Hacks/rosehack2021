@@ -52,12 +52,12 @@
 	/* opacity: ; */
   }
   @keyframes MoveBalloonD {
-	0%, 100% { top: 75%; left: 87%}
-	50% { top: 70%; left: 84%; }
+	0%, 100% { top: 45%; left: 57%}
+	50% { top: 48%; left: 55%; }
   }
 
   #wheelchair_balloon {
-	animation: wheelchair_balloon 14s linear infinite;
+	animation: wheelchair_balloon 21s linear infinite;
 	position: absolute;
 	left: 85%;
 	top: 61%;
@@ -75,8 +75,8 @@
 	top: 21%;
   }
   @keyframes whale_girl {
-	0%, 100% { top: 49%; left: 20%}
-	50% { top: 53%; left: 16%; }
+	0%, 100% { top: 45%; left: 20%}
+	50% { top: 47%; left: 24%; }
   }
 
   #crane1 {
