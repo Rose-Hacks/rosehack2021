@@ -21,6 +21,8 @@
   #balloonB {
 	animation: MoveBalloonB 19s linear infinite;
 	position: absolute;
+	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
 	left: 85%;
 	top: 21%;
 	/* opacity: 0.6; */
