@@ -10,8 +10,12 @@
 	src: url(Lora-MediumItalic.ttf);
 }
 
-#animation{
+.animationDay {
 	background: linear-gradient(rgb(137, 182, 207),rgb(166, 186, 215),rgb(174, 188, 217),rgb(203, 198, 210),rgb(235, 209, 202),rgb(250, 223, 192),rgb(254, 242, 210));
+}
+
+.animationNight {
+	background: rgb(61, 57, 83);
 }
 
   #balloonB {
@@ -907,6 +911,22 @@ a, a:visited {
 #imgBack4 {
 	position: absolute;
 	top: 5%;
+	left: 0;
+	width: 100%;
+	opacity: 0.2;
+}
+
+#imgBackA {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	opacity: 0.7;
+}
+
+#imgBackB {
+	position: absolute;
+	top: 50%;
 	left: 0;
 	width: 100%;
 	opacity: 0.2;

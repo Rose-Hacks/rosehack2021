@@ -2,6 +2,7 @@ var background = document.getElementById("background");
 var milestonesBox = document.getElementById("milestones");
 // temporary, until hero animation is done 
 var title = document.getElementById("title");
+var animation = document.getElementById("animation");
 var help = $("#about #help span");
 var stats = document.getElementById("stats");
 var organizers = document.getElementById("organizers");
@@ -12,7 +13,7 @@ var quickIcon = document.getElementById("quickIcon");
 // switches btn day/night theme based on time
 var currentTime = new Date().getHours();
 if (document.body) {
-    if (7 <= currentTime && currentTime < 24) {
+    if (7 <= currentTime && currentTime < 10) {
         $(".objectsDay").show();
         $(".objectsNight").hide();
 
@@ -25,6 +26,9 @@ if (document.body) {
 
         title.classList.remove("titleMatchNightBackground");
         title.classList.add("titleMatchDayBackground");
+
+        animation.classList.remove("animationNight");
+        animation.classList.add("animationDay");
 
         quickIcon.classList.remove("titleMatchNightBackground");
         quickIcon.classList.add("titleMatchDayBackground");
@@ -61,6 +65,9 @@ if (document.body) {
         title.classList.remove("titleMatchDayBackground");
         title.classList.add("titleMatchNightBackground");
 
+        animation.classList.remove("animationDay");
+        animation.classList.add("animationNight");
+        
         quickIcon.classList.remove("quMatchDayBackground");
         quickIcon.classList.add("titleMatchNightBackground");
 
@@ -112,6 +119,8 @@ if (document.body) {
                 $("#imgBack2").fadeToggle(4000);
                 $("#imgBack3").fadeToggle(6000);
                 $("#imgBack4").fadeToggle(3500);
+                $("#imgBackA").fadeToggle(6000);
+                $("#imgBackB").fadeToggle(3500);
                 $("#imgBack5").fadeToggle(4500);
                 $("#imgBack6").fadeToggle(4200);
                 $("#imgBack7").fadeToggle(3200);
@@ -138,6 +147,8 @@ if (document.body) {
                 $("#imgBack2").fadeToggle(6000);
                 $("#imgBack3").fadeToggle(8000);
                 $("#imgBack4").fadeToggle(5500);
+                $("#imgBackA").fadeToggle(8000);
+                $("#imgBackB").fadeToggle(5500);
                 $("#imgBack5").fadeToggle(5500);
                 $("#imgBack6").fadeToggle(6200);
                 $("#imgBack7").fadeToggle(5200);
@@ -168,6 +179,8 @@ if (document.body) {
             $("#imgBack2").fadeIn(6000);
             $("#imgBack3").fadeIn(8000);
             $("#imgBack4").fadeIn(5500);
+            $("#imgBackA").fadeIn(8000);
+            $("#imgBackB").fadeIn(5500);
             $("#imgBack5").fadeIn(5500);
             $("#imgBack6").fadeIn(6200);
             $("#imgBack7").fadeIn(5200);
