@@ -468,8 +468,8 @@ h1, h2, h3 {
   }
   
   @keyframes MoveUpDown5 {
-	0%, 100% { top: -7%; left: 72%}
-	50% { top: -4%; left: 69%; }
+	0%, 100% { top: -39%; left: 72%}
+	50% { top: -36%; left: 69%; }
   }
 
   /* @keyframes MoveUpDown5 {
@@ -486,8 +486,8 @@ h1, h2, h3 {
   }
   
   @keyframes MoveUpDown5-5 {
-	0%, 100% { top: 4%; left: 47%}
-	50% { top: 1%; left: 52%; }
+	0%, 100% { top: -38%; left: 77%}
+	50% { top: -41%; left: 82%; }
   }
 
   /* @keyframes MoveUpDown5-5 {
@@ -504,8 +504,8 @@ h1, h2, h3 {
   }
   
   @keyframes MoveUpDown5-6 {
-	0%, 100% { top: -4%; left: 38%}
-	50% { top: -2%; left: 42%; }
+	0%, 100% { top: -35%; left: 60%}
+	50% { top: -32%; left: 64%; }
   }
 
   /* @keyframes MoveUpDown5-6 {
@@ -522,8 +522,8 @@ h1, h2, h3 {
   }
   
   @keyframes MoveUpDown5-7 {
-	0%, 100% { top: 5%; left: 3%}
-	50% { top: -1%; left: -3%; }
+	0%, 100% { top: -44%; left: 73%}
+	50% { top: -49%; left: 76%; }
   }
 
   /* @keyframes MoveUpDown5-7 {
@@ -540,8 +540,8 @@ h1, h2, h3 {
   }
   
   @keyframes MoveUpDown5-11 {
-	0%, 100% { top: -7%; left: 21%}
-	50% { top: -3%; left: 24%; }
+	0%, 100% { top: -27%; left: 81%}
+	50% { top: -23%; left: 84%; }
   }
 
   #cloud5-12 {
@@ -553,8 +553,8 @@ h1, h2, h3 {
   }
   
   @keyframes MoveUpDown5-12 {
-	0%, 100% { top: -16%; left: 6%}
-	50% { top: -12%; left: 2%; }
+	0%, 100% { top: -26%; left: 6%}
+	50% { top: -22%; left: 2%; }
   }
 
   #cloud5-8 {
@@ -566,8 +566,8 @@ h1, h2, h3 {
   }
   
   @keyframes MoveUpDown5-8 {
-	0%, 100% { top: -4%; left: 89%}
-	50% { top: -2%; left: 85%; }
+	0%, 100% { top: -44%; left: 93%}
+	50% { top: -42%; left: 89%; }
   }
 
   /* @keyframes MoveUpDown5-5 {
@@ -584,8 +584,8 @@ h1, h2, h3 {
   }
   
   @keyframes MoveUpDown5-9 {
-	0%, 100% { top: -8%; left: 52%}
-	50% { top: -6%; left: 55%; }
+	0%, 100% { top: -41%; left: 82%}
+	50% { top: -38%; left: 85%; }
   }
 
   /* @keyframes MoveUpDown5-6 {
@@ -602,8 +602,8 @@ h1, h2, h3 {
   }
   
   @keyframes MoveUpDown5-10 {
-	0%, 100% { top: -16%; left: 42%}
-	50% { top: -14%; left: 38%; }
+	0%, 100% { top: -26%; left: 0%}
+	50% { top: -24%; left: -4%; }
   }
 
   #cloud6 {
