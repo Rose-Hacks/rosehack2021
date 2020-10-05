@@ -23,7 +23,7 @@
 	position: absolute;
 	left: 85%;
 	top: 21%;
-	opacity: 0.6;
+	/* opacity: 0.6; */
   }
   
   @keyframes MoveBalloonB {
@@ -36,7 +36,7 @@
 	position: absolute;
 	left: 85%;
 	top: 21%;
-	opacity: 0.6;
+	/* opacity: 1; */
   }
   
   @keyframes MoveBalloonC {
@@ -49,7 +49,7 @@
 	position: absolute;
 	left: 85%;
 	top: 21%;
-	opacity: 0.6;
+	/* opacity: ; */
   }
   
   @keyframes MoveBalloonD {
@@ -62,12 +62,11 @@
 	position: absolute;
 	left: 85%;
 	top: 21%;
-	opacity: 0.6;
   }
 
   @keyframes whale_girl {
-	0%, 100% { top: 40%; left: 32%}
-	50% { top: 45%; left: 28%; }
+	0%, 100% { top: 40%; left: 28%}
+	50% { top: 45%; left: 24%; }
   }
 
 body {
