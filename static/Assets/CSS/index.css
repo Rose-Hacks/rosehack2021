@@ -14,6 +14,45 @@
 	background: linear-gradient(rgb(137, 182, 207),rgb(166, 186, 215),rgb(174, 188, 217),rgb(203, 198, 210),rgb(235, 209, 202),rgb(250, 223, 192),rgb(254, 242, 210));
 }
 
+  #balloonB {
+	animation: MoveBalloonB 19s linear infinite;
+	position: absolute;
+	left: 85%;
+	top: 21%;
+	opacity: 0.6;
+  }
+  
+  @keyframes MoveBalloonB {
+	0%, 100% { top: 20%; left: 12%}
+	50% { top: 24%; left: 17%; }
+  }
+
+  #balloonC {
+	animation: MoveBalloonC 19s linear infinite;
+	position: absolute;
+	left: 85%;
+	top: 21%;
+	opacity: 0.6;
+  }
+  
+  @keyframes MoveBalloonC {
+	0%, 100% { top: 50%; left: 77%}
+	50% { top: 53%; left: 74%; }
+  }
+
+  #balloonD {
+	animation: MoveBalloonD 19s linear infinite;
+	position: absolute;
+	left: 85%;
+	top: 21%;
+	opacity: 0.6;
+  }
+  
+  @keyframes MoveBalloonD {
+	0%, 100% { top: 10%; left: 87%}
+	50% { top: 15%; left: 84%; }
+  }
+
 body {
 	/*don't know if some components rely on the body's little margin as restrictions,
 	but footer needs to go all the way across*/
