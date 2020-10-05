@@ -27,8 +27,8 @@
   }
   
   @keyframes MoveBalloonB {
-	0%, 100% { top: 20%; left: 10%}
-	50% { top: 16%; left: 15%; }
+	0%, 100% { top: 10%; left: 4%}
+	50% { top: 6%; left: 9%; }
   }
 
   #balloonC {
@@ -40,8 +40,8 @@
   }
   
   @keyframes MoveBalloonC {
-	0%, 100% { top: 50%; left: 77%}
-	50% { top: 53%; left: 74%; }
+	0%, 100% { top: 40%; left: 67%}
+	50% { top: 43%; left: 64%; }
   }
 
   #balloonD {
@@ -53,8 +53,8 @@
   }
   
   @keyframes MoveBalloonD {
-	0%, 100% { top: 10%; left: 87%}
-	50% { top: 15%; left: 84%; }
+	0%, 100% { top: 70%; left: 87%}
+	50% { top: 75%; left: 84%; }
   }
 
   #wheelchair_balloon {
@@ -66,8 +66,8 @@
   }
   
   @keyframes wheelchair_balloon {
-	0%, 100% { top: 10%; left: 87%}
-	50% { top: 15%; left: 84%; }
+	0%, 100% { top: 10%; left: 80%}
+	50% { top: 15%; left: 77%; }
   }
 
   #whale_girl{
@@ -78,8 +78,8 @@
   }
 
   @keyframes whale_girl {
-	0%, 100% { top: 40%; left: 28%}
-	50% { top: 45%; left: 24%; }
+	0%, 100% { top: 49%; left: 20%}
+	50% { top: 53%; left: 16%; }
   }
 
 body {
