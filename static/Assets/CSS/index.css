@@ -25,10 +25,9 @@
 	top: 21%;
 	/* opacity: 0.6; */
   }
-  
   @keyframes MoveBalloonB {
-	0%, 100% { top: 20%; left: 10%}
-	50% { top: 16%; left: 15%; }
+	0%, 100% { top: 10%; left: 4%}
+	50% { top: 6%; left: 9%; }
   }
 
   #balloonC {
@@ -38,10 +37,9 @@
 	top: 21%;
 	/* opacity: 1; */
   }
-  
   @keyframes MoveBalloonC {
-	0%, 100% { top: 50%; left: 77%}
-	50% { top: 53%; left: 74%; }
+	0%, 100% { top: 40%; left: 67%}
+	50% { top: 43%; left: 64%; }
   }
 
   #balloonD {
@@ -51,23 +49,21 @@
 	top: 21%;
 	/* opacity: ; */
   }
-  
   @keyframes MoveBalloonD {
-	0%, 100% { top: 10%; left: 87%}
-	50% { top: 15%; left: 84%; }
+	0%, 100% { top: 75%; left: 87%}
+	50% { top: 70%; left: 84%; }
   }
 
   #wheelchair_balloon {
-	animation: wheelchair_balloon 19s linear infinite;
+	animation: wheelchair_balloon 14s linear infinite;
 	position: absolute;
 	left: 85%;
 	top: 61%;
 	/* opacity: ; */
   }
-  
   @keyframes wheelchair_balloon {
-	0%, 100% { top: 10%; left: 87%}
-	50% { top: 15%; left: 84%; }
+	0%, 100% { top: 10%; left: 77%}
+	50% { top: 15%; left: 80%; }
   }
 
   #whale_girl{
@@ -76,22 +72,69 @@
 	left: 85%;
 	top: 21%;
   }
-
   @keyframes whale_girl {
-	0%, 100% { top: 40%; left: 28%}
-	50% { top: 45%; left: 24%; }
+	0%, 100% { top: 49%; left: 20%}
+	50% { top: 53%; left: 16%; }
   }
 
   #crane1 {
-	animation: crane1 19s linear infinite;
+	animation: crane1 7s linear infinite;
 	position: absolute;
+	opacity: 0.8;
 	left: 85%;
 	top: 21%;
   }
-
   @keyframes crane1 {
-	0%, 100% { top: 40%; left: 78%}
-	50% { top: 45%; left: 74%; }
+	0%, 100% { top: 4%; left: 34%}
+	50% { top: 6%; left: 32%; }
+  }
+
+  #crane2 {
+	animation: crane2 7s linear infinite;
+	position: absolute;
+	opacity: 0.8;
+	left: 85%;
+	top: 21%;
+  }
+  @keyframes crane2 {
+	0%, 100% { top: 8%; left: 36%}
+	50% { top: 10%; left: 34%; }
+  }
+
+  #crane3 {
+	animation: crane3 7s linear infinite;
+	position: absolute;
+	opacity: 0.8;
+	left: 85%;
+	top: 21%;
+  }
+  @keyframes crane3 {
+	0%, 100% { top: 12%; left: 38%}
+	50% { top: 14%; left: 36%; }
+  }
+
+  #crane4 {
+	animation: crane4 7s linear infinite;
+	position: absolute;
+	opacity: 0.8;
+	left: 85%;
+	top: 21%;
+  }
+  @keyframes crane4 {
+	0%, 100% { top: 16%; left: 36%}
+	50% { top: 18%; left: 34%; }
+  }
+
+  #crane5 {
+	animation: crane5 7s linear infinite;
+	position: absolute;
+	opacity: 0.8;
+	left: 85%;
+	top: 21%;
+  }
+  @keyframes crane5 {
+	0%, 100% { top: 20%; left: 34%}
+	50% { top: 22%; left: 32%; }
   }
 
   #cloudA {
