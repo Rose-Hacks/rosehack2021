@@ -11,7 +11,7 @@
 }
 
 .animationDay {
-	background: linear-gradient(rgb(137, 182, 207),rgb(166, 186, 215),rgb(174, 188, 217),rgb(203, 198, 210),rgb(235, 209, 202),rgb(250, 223, 192),rgb(254, 242, 210));
+	background: linear-gradient(rgb(137, 182, 207),rgb(166, 186, 215),rgb(174, 188, 217),rgb(203, 198, 210),rgb(235, 209, 202),rgb(250, 223, 192),rgb(254, 242, 210),rgb(254, 242, 210),rgb(254, 242, 210));
 }
 
 .animationNight {
@@ -274,12 +274,12 @@
 	position: absolute;
 	left: 42%;
 	top: -3%;
-	opacity: 0.5;
+	opacity: 0.6;
   }
   
   @keyframes MoveUpDownK {
-	0%, 100% { top: 97%; left: 21%}
-	50% { top: 99%; left: 24%; }
+	0%, 100% { top: 92%; left: 23%}
+	50% { top: 95%; left: 24%; }
   }
 
 
@@ -307,6 +307,19 @@
   @keyframes MoveUpDownM {
 	0%, 100% { top: 80%; left: 18%}
 	50% { top: 82%; left: 15%; }
+  }
+
+  #cloudN{
+	animation: MoveUpDownN 17s linear infinite;
+	position: absolute;
+	left: 2%;
+	top: -2%;
+	opacity: 0.6;
+  }
+  
+  @keyframes MoveUpDownN {
+	0%, 100% { top: 81%; left: 33%}
+	50% { top: 79%; left: 30%; }
   }
 
 body {
@@ -1019,14 +1032,9 @@ h1, h2, h3 {
 	50% { top: 75%; left: -1%; }
   }
 
-
-/* .dayGradientBackground {
-	background: linear-gradient(rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3));
-} */
-
 .dayGradientBackground {
-	background: -webkit-linear-gradient(rgb(254, 242, 210), rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3));
-	background: linear-gradient(rgb(254, 242, 210),rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3));
+	background: -webkit-linear-gradient(rgb(254, 242, 210),rgba(168, 168, 219, 0.35),rgba(168, 168, 219, 0.35), rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3));
+	background: linear-gradient(rgb(254, 242, 210),rgba(168, 168, 219, 0.35),rgba(168, 168, 219, 0.35),rgba(168, 168, 219, 0.35), rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3));
 }
 
 .nightGradientBackground {
