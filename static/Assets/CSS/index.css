@@ -57,6 +57,19 @@
 	50% { top: 15%; left: 84%; }
   }
 
+  #wheelchair_balloon {
+	animation: wheelchair_balloon 19s linear infinite;
+	position: absolute;
+	left: 85%;
+	top: 61%;
+	/* opacity: ; */
+  }
+  
+  @keyframes wheelchair_balloon {
+	0%, 100% { top: 10%; left: 87%}
+	50% { top: 15%; left: 84%; }
+  }
+
   #whale_girl{
 	animation: whale_girl 19s linear infinite;
 	position: absolute;
