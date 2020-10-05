@@ -69,6 +69,18 @@
 	50% { top: 45%; left: 24%; }
   }
 
+  #crane1 {
+	animation: crane1 19s linear infinite;
+	position: absolute;
+	left: 85%;
+	top: 21%;
+  }
+
+  @keyframes crane1 {
+	0%, 100% { top: 40%; left: 78%}
+	50% { top: 45%; left: 74%; }
+  }
+
 body {
 	/*don't know if some components rely on the body's little margin as restrictions,
 	but footer needs to go all the way across*/
