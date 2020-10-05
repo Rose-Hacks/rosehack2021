@@ -274,12 +274,12 @@
 	position: absolute;
 	left: 42%;
 	top: -3%;
-	opacity: 0.5;
+	opacity: 0.6;
   }
   
   @keyframes MoveUpDownK {
-	0%, 100% { top: 97%; left: 21%}
-	50% { top: 99%; left: 24%; }
+	0%, 100% { top: 92%; left: 23%}
+	50% { top: 95%; left: 24%; }
   }
 
 
@@ -307,6 +307,19 @@
   @keyframes MoveUpDownM {
 	0%, 100% { top: 80%; left: 18%}
 	50% { top: 82%; left: 15%; }
+  }
+
+  #cloudN{
+	animation: MoveUpDownN 17s linear infinite;
+	position: absolute;
+	left: 2%;
+	top: -2%;
+	opacity: 0.6;
+  }
+  
+  @keyframes MoveUpDownN {
+	0%, 100% { top: 81%; left: 33%}
+	50% { top: 79%; left: 30%; }
   }
 
 body {
