@@ -44,17 +44,17 @@
 	50% { top: 43%; left: 64%; }
   }
 
-  #balloonD {
+  /* #balloonD {
 	animation: MoveBalloonD 19s linear infinite;
 	position: absolute;
 	left: 85%;
 	top: 21%;
 	/* opacity: ; */
-  }
+  /* }
   @keyframes MoveBalloonD {
 	0%, 100% { top: 45%; left: 57%}
 	50% { top: 48%; left: 55%; }
-  }
+  } */ 
 
   #wheelchair_balloon {
 	animation: wheelchair_balloon 21s linear infinite;
