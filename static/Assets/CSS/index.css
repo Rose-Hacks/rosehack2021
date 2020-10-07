@@ -490,6 +490,19 @@ h1, h2, h3 {
 	50% { top: -21%; left: 82%; }
   }
 
+  #belltower {
+	animation: belltower 14s linear infinite;
+	position: absolute;
+	left: 55%;
+	top: 0%;
+	opacity: 0.55;
+  }
+  
+  @keyframes belltower {
+	0%, 100% { top: -48%; left: 77%}
+	50% { top: -51%; left: 82%; }
+  }
+
   /* @keyframes MoveUpDown5-5 {
 	0%, 100% { top: 118%; left: 49%}
 	50% { top: 116%; left: 53%; }
