@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 <<<<<<< HEAD:static/Assets/CSS/index.css
+=======
+>>>>>>> 6197df8a0ce1bdf9ce29bef83579c700b84a6eef
 /* need to make max-width */
 
 @font-face {
@@ -490,6 +493,7 @@ h1, h2, h3 {
 	0%, 100% { top: -18%; left: 77%}
 	50% { top: -21%; left: 82%; }
   }
+
 
   #belltower {
 	animation: belltower 14s linear infinite;
@@ -2127,6 +2131,7 @@ a, a:visited {
 		font-size: 0.6em;
 		/* color: #040407; */
 	}
+<<<<<<< HEAD
 =======
 /* need to make max-width */
 
@@ -4244,4 +4249,6 @@ a, a:visited {
 		/* color: #040407; */
 	}
 >>>>>>> 4ec55b0cd5c640b64aa9cf7979551b5811a02c2f:Assets/CSS/index.css
+=======
+>>>>>>> 6197df8a0ce1bdf9ce29bef83579c700b84a6eef
 }
