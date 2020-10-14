@@ -2144,12 +2144,12 @@ a, a:visited {
 
 
 
-/* duplicate part */
+/* duplicate part --------------------------------------------------------------------------------------------------------------------*/
 
 
 /* need to make max-width */
 
-@font-face {
+/* @font-face {
 	font-family: alvania;
 	src: url(Alvania.ttf);
 }
@@ -2175,7 +2175,7 @@ a, a:visited {
 	left: 85%;
 	top: 21%;
 	/* opacity: 0.6; */
-  }
+  /* }
   @keyframes MoveBalloonB {
 	0%, 100% { top: 10%; left: 4%}
 	50% { top: 6%; left: 9%; }
@@ -2186,12 +2186,11 @@ a, a:visited {
 	position: absolute;
 	left: 85%;
 	top: 21%;
-	/* opacity: 1; */
   }
   @keyframes MoveBalloonC {
 	0%, 100% { top: 40%; left: 67%}
 	50% { top: 43%; left: 64%; }
-  }
+  } */
 
   /* #balloonD {
 	animation: MoveBalloonD 19s linear infinite;
@@ -2205,12 +2204,11 @@ a, a:visited {
 	50% { top: 48%; left: 55%; }
   } */ 
 
-  #wheelchair_balloon {
+  /* #wheelchair_balloon {
 	animation: wheelchair_balloon 21s linear infinite;
 	position: absolute;
 	left: 85%;
 	top: 61%;
-	/* opacity: ; */
   }
   @keyframes wheelchair_balloon {
 	0%, 100% { top: 10%; left: 77%}
@@ -2469,23 +2467,19 @@ a, a:visited {
   @keyframes MoveUpDownN {
 	0%, 100% { top: 81%; left: 33%}
 	50% { top: 79%; left: 30%; }
-  }
+  } */
 
-body {
-	/*don't know if some components rely on the body's little margin as restrictions,
-	but footer needs to go all the way across*/
+/* body {
+	
 	margin: 0;
 
-	/*careful, may mess up elsewhere*/
 	overflow-x: hidden;
 	
-	/*background: url("rosehackimg.PNG");*/
 	text-align: center;
 	color: #9C9FB7;
 
 	min-width: 50%;
 	font-family: lora;
-	/* font-family: 'Lora', serif; */
 	font-weight: normal;
 	font-size: 25px;
 	letter-spacing: 0.1rem;
@@ -2496,7 +2490,6 @@ h1, h2, h3 {
 }
 
 #background {
-	/* padding-bottom: 2%; */
 	position: relative;
 }
 
@@ -2513,10 +2506,7 @@ h1, h2, h3 {
 	50% { top: -8%; left: 21%; }
   }
 
-  /* @keyframes MoveUpDown0-5 {
-	0%, 100% { top: 235%; left: 14% }
-	50% { top: 238%; left: 21%; }
-  } */
+  
 
   #cloud0-6 {
 	animation: MoveUpDown0-6 8s linear infinite;
@@ -2529,14 +2519,14 @@ h1, h2, h3 {
   @keyframes MoveUpDown0-6 {
 	0%, 100% { top: 3%; left: 3% }
 	50% { top: 0%; left: 11%; }
-  }
+  } */
 
   /* @keyframes MoveUpDown0-6 {
 	0%, 100% { top: 253%; left: 7% }
 	50% { top: 249%; left: 14%; }
   } */
 
-  #cloud1 {
+  /* #cloud1 {
 	animation: MoveUpDown 4s linear infinite;
 	position: absolute;
 	left: 38%;
@@ -2547,14 +2537,14 @@ h1, h2, h3 {
   @keyframes MoveUpDown {
 	0%, 100% { top: 50%; }
 	50% { top: 55%; }
-  }
+  } */
 
   /* @keyframes MoveUpDown {
 	0%, 100% { top: 310%; }
 	50% { top: 312%; }
   } */
 
-  #cloud2 {
+  /* #cloud2 {
 	animation: MoveUpDown2 15s linear infinite;
 	position: absolute;
 	left: 50%;
@@ -2565,14 +2555,9 @@ h1, h2, h3 {
   @keyframes MoveUpDown2 {
 	0%, 100% { top: 78%; left: 55%}
 	50% { top: 81%; left: 50%; }
-  }
-
-  /* @keyframes MoveUpDown2 {
-	0%, 100% { top: 331%; left: 55%}
-	50% { top: 335%; left: 50%; }
   } */
 
-  #cloud3 {
+  /* #cloud3 {
 	animation: MoveUpDown3 12s linear infinite;
 	position: absolute;
 	left: 70%;
@@ -2583,14 +2568,9 @@ h1, h2, h3 {
   @keyframes MoveUpDown3 {
 	0%, 100% { top: 73%; left: 70%}
 	50% { top: 74%; left: 76%; }
-  }
-
-  /* @keyframes MoveUpDown3 {
-	0%, 100% { top: 330%; left: 70%}
-	50% { top: 326%; left: 74%; }
   } */
 
-  #cloud4 {
+  /* #cloud4 {
 	animation: MoveUpDown4 14s linear infinite;
 	position: absolute;
 	left: 10%;
@@ -2603,10 +2583,7 @@ h1, h2, h3 {
 	50% { top: 60%; left: 14%; }
   }
 
-  /* @keyframes MoveUpDown4 {
-	0%, 100% { top: 399%%; left: 10%}
-	50% { top: 402%; left: 14%; }
-  } */
+  
 
   #cloud5 {
 	animation: MoveUpDown5 9s linear infinite;
@@ -2621,10 +2598,7 @@ h1, h2, h3 {
 	50% { top: -16%; left: 69%; }
   }
 
-  /* @keyframes MoveUpDown5 {
-	0%, 100% { top: 112%; left: 72%}
-	50% { top: 116%; left: 68%; }
-  } */
+  
 
   #cloud5-5 {
 	animation: MoveUpDown5-5 14s linear infinite;
@@ -2639,10 +2613,7 @@ h1, h2, h3 {
 	50% { top: -21%; left: 82%; }
   }
 
-  /* @keyframes MoveUpDown5-5 {
-	0%, 100% { top: 118%; left: 49%}
-	50% { top: 116%; left: 53%; }
-  } */
+  
 
   #cloud5-6 {
 	animation: MoveUpDown5-6 7s linear infinite;
@@ -2657,10 +2628,7 @@ h1, h2, h3 {
 	50% { top: -32%; left: 64%; }
   }
 
-  /* @keyframes MoveUpDown5-6 {
-	0%, 100% { top: 114%; left: 38%}
-	50% { top: 110%; left: 42%; }
-  } */
+  
   
   #cloud5-7 {
 	animation: MoveUpDown5-7 17s linear infinite;
@@ -2674,11 +2642,6 @@ h1, h2, h3 {
 	0%, 100% { top: -14%; left: 73%}
 	50% { top: -19%; left: 76%; }
   }
-
-  /* @keyframes MoveUpDown5-7 {
-	0%, 100% { top: 117%; left: 11%}
-	50% { top: 114%; left: 2%; }
-  } */
 
   #cloud5-11 {
 	animation: MoveUpDown5-11 15s linear infinite;
@@ -2719,10 +2682,7 @@ h1, h2, h3 {
 	50% { top: -12%; left: 89%; }
   }
 
-  /* @keyframes MoveUpDown5-5 {
-	0%, 100% { top: 118%; left: 49%}
-	50% { top: 116%; left: 53%; }
-  } */
+  
 
   #cloud5-9 {
 	animation: MoveUpDown5-9 7s linear infinite;
@@ -2737,10 +2697,7 @@ h1, h2, h3 {
 	50% { top: -8%; left: 85%; }
   }
 
-  /* @keyframes MoveUpDown5-6 {
-	0%, 100% { top: 114%; left: 38%}
-	50% { top: 110%; left: 42%; }
-  } */
+  
   
   #cloud5-10 {
 	animation: MoveUpDown5-10 17s linear infinite;
@@ -2768,10 +2725,7 @@ h1, h2, h3 {
 	50% { top: 76%; left: 70%; }
   }
 
-  /* @keyframes MoveUpDown6 {
-	0%, 100% { top: 408%; left: 76%}
-	50% { top: 413%; left: 70%; }
-  } */
+  
 
 #cloud7 {
 	animation: MoveUpDown7 15s linear infinite;
@@ -2786,10 +2740,7 @@ h1, h2, h3 {
 	50% { top: 110%; left: 21%; }
   }
 
-  /* @keyframes MoveUpDown7 {
-	0%, 100% { top: 418%; left: 24%}
-	50% { top: 422%; left: 21%; }
-  } */
+  
 
   #cloud8 {
 	animation: MoveUpDown8 12s linear infinite;
@@ -2830,10 +2781,7 @@ h1, h2, h3 {
 	50% { top: 83%; left: -2%; }
   }
 
-  /* @keyframes MoveUpDown10 {
-	0%, 100% { top: 415%; left: 4%}
-	50% { top: 411%; left: -2%; }
-  } */
+  
 
   #cloud11 {
 	animation: MoveUpDown11 16s linear infinite;
@@ -2848,13 +2796,10 @@ h1, h2, h3 {
 	50% { top: 83%; left: 45%; }
   }
 
-  /* @keyframes MoveUpDown11 {
-	0%, 100% { top: 413%; left: 40%}
-	50% { top: 418%; left: 45%; }
-  } */
+  
 
   #cloud12 {
-	/* animation: MoveUpDown12 19s linear infinite; */
+	
 	position: absolute;
 	left: 35%;
 	top: 135%;
@@ -2866,10 +2811,7 @@ h1, h2, h3 {
 	50% { top: 133%; left: 38%; }
   }
 
-  /* @keyframes MoveUpDown12 {
-	0%, 100% { top: 436%; left: 35%}
-	50% { top: 443%; left: 38%; }
-  } */
+  
 
   #balloon01 {
 	animation: MoveBalloon01 19s linear infinite;
@@ -2960,7 +2902,7 @@ h1, h2, h3 {
   @keyframes MoveBalloon07 {
 	0%, 100% { top: -13%; left: 82%}
 	50% { top: -8%; left: 86%; }
-  }
+  } */
 
   /* #balloon08 {
 	animation: MoveBalloon08 19s linear infinite;
@@ -2975,7 +2917,7 @@ h1, h2, h3 {
 	50% { top: 851%; left: 5%; }
   } */
 
-  #balloon09 {
+  /* #balloon09 {
 	animation: MoveBalloon09 19s linear infinite;
 	position: absolute;
 	left: 10%;
@@ -3027,7 +2969,7 @@ h1, h2, h3 {
 	50% { top: 75%; left: -1%; }
   }
 
-  /* animals */
+  
   #animal01 {
 	animation: MoveAnimal01 19s linear infinite;
 	position: absolute;
@@ -3253,9 +3195,7 @@ a, a:visited {
 	opacity: 1.0;
 }
 
-/* .section {
-	margin: 10% 0;
-} */
+
 
 #mlhTag {
 	display: block;
@@ -3275,8 +3215,8 @@ a, a:visited {
 
 #hero {
 	position: absolute;
-	/* height: 100%; */
-	top: 0%; /*0=top of #background*/
+	
+	top: 0%; 
 	left: 0;
 	width: 100%;
 	z-index: -1;
@@ -3284,14 +3224,13 @@ a, a:visited {
 
 #imgBack {
 	position: absolute;
-	top: 0%; /*0=top of #background*/
+	top: 0%; 
 	left: 0;
 	width: 100%;
 	opacity: 1;
-	/* z-index: 0; */
-}
+} */
 
-#imgBack2 {
+/* #imgBack2 {
 	position: absolute;
 	top: 0%;
 	left: 0;
@@ -3428,9 +3367,7 @@ a, a:visited {
 }
 
 #quickIcon {
-	/* text-align: left; */
-	/* background-color: rgba(168, 168, 219, 0.35); */
-	/* padding-left: 2%; */
+	
 	display: grid;
 	grid-template-columns: 25% 50%;
 	position: relative;
@@ -3439,12 +3376,12 @@ a, a:visited {
 
 #quickIcon span {
 	margin: auto 0.3%;	
-	/* height: 100%; */
+	
 }
 
 #quickIcon #countdown {
 	font-size: 0.6em;
-	/* text-align: center; */
+	
 }
 
 #quickcontact a, #quickcontact a:visited {
@@ -3467,17 +3404,8 @@ a, a:visited {
 	height: 100vh;
 	margin: 0;
 	padding: 0 0 1%;
-
-	/* color: #d1d3e3; */
 }
 
-.titleMatchDayBackground {
-	/* background-color: rgba(168, 168, 219, 0.35); */
-}
-
-.titleMatchNightBackground {
-	/* background: rgb(61, 57, 83); */
-}
 
 #title h1 {
 	padding-top: 11%;
@@ -3488,12 +3416,10 @@ a, a:visited {
 #milestones {
 	border-radius: 1.0em;
 	margin: 5% 0;
-	/* padding: 0.2% 0; */
 	padding: 1%;
 	font-size: 1.8em;
 	font-family: "Playfair Display", 'serif';
 	font-weight: 300;
-	/* z-index: 2000; */
 }
 
 .milestonesDayBoxColor {
@@ -3502,11 +3428,10 @@ a, a:visited {
 
 .milestonesNightBoxColor {
 	background-color: rgba(255, 255, 255, 0.15);
-	/* background-color: rgba(93, 90, 112, 0.8); */
-}
+} */
 
 
-#milestonesdiv {
+/* #milestonesdiv {
 	padding: 11%;
 	padding-top:0.2%;
 	position: relative;
@@ -3532,12 +3457,7 @@ a, a:visited {
 	margin-top: 0.5%;
 }
 
-/* #about {
-	display: grid;
-	grid-template-columns: 45% 55%;
-	margin-bottom: 8%;
-	position: relative;
-} */
+
 
 #about {
 	display: -ms-grid;
@@ -3553,23 +3473,15 @@ a, a:visited {
 	padding-top: 15%;
 	padding-left: 14%;
 	padding-right: 2%;
-	/* width: 38%; */
-	/* margin: auto; */
+	
 }
 
-/* #about #help {
-	display: grid;
-	grid-template-columns: 50% 50%;
-	padding-top: 0;
-	width: 90%;
-	margin: auto;
-	text-transform: uppercase;
-} */
+
 
 #about #help {
 	display: grid;
 	grid-template-columns: 50% 50%;
-	/* grid-template-rows: 40% 40%; */
+	
 	padding: 0;
 	width: 90%;
 	margin: auto;
@@ -3583,54 +3495,18 @@ a, a:visited {
 	padding: 1%;
 	margin: 10% auto;
 	border-radius: 0.3em;
-	/* vertical-align: middle; */
+	
 }
 
-#help .row {
-	/* width: 60%; */
-}
 
-#help span {
-	/* width: 55%; */
-	/* margin: auto; */
-}
-
-#help .helpIcon {
-	/* width: 100%; */
-}
-
-#about #help .helpBox {
-	/* margin: 5% 10%; */
-	/* padding: 1%; */
-	/* border-radius: 0.5em; */
-	/* display: block; */
-	/* vertical-align: middle; */
-}
-
-#about #help .grow {
-	/* height: 100%; */
-	/* padding: 1%; */
-	/* heigh: 80%; */
-	/* margin: auto; */
-}
-
-#about #help a {
-	/* height: 100%; */
-	/* width: 100%; */
-}
 
 #about #help img {
 	padding: 4%;
-	/* margin: 4%; */
-	/* text-align: center; */
-	/* margin: auto; */
-	/* margin-top: auto; */
-	/* position: relative; */
-	/* vertical-align: middle; */
+	
 }
 
 #about #help #workshop {
-	/* height: 65%; */
+	
 	padding-top: 10%;
 }
 
@@ -3643,19 +3519,11 @@ a, a:visited {
 	opacity: 70%;
 }
 
-#about #help div {
-	/* width: 60%; */
-	/* height: 90%; */
-	/* margin: 8% auto; */
-	/* padding: 7%; */
-	/* width: 80%; */
-	/* height: 80%; */
-	/* margin: auto; */
-}
+
 
 #about #help p {
 	margin: 5% 0;
-	/* font-size: 100%; */
+	
 }
 
 #barbQuote {
@@ -3681,20 +3549,7 @@ a, a:visited {
 	color: rgb(150,150,165);
 }
 
-/* #stats {
-	padding-top: 1%;
-	padding-bottom: 1%;
-	margin-top: 2%;
-} */
 
-/* #stats .row {
-	display: grid;
-	grid-template-columns: 25% 25% 25% 25%;
-	width: 100%;
-	padding: 1% 0;
-	/* font-size: 0.8em; */
-	/* height: 7em; *//*
-} */
 
 #stats .row {
 	display: -ms-grid;
@@ -3703,59 +3558,18 @@ a, a:visited {
 	    grid-template-columns: 25% 25% 25% 25%;
 	width: 100%;
 	padding: 1% 0;
-	/* font-size: 0.8em; */
-	/* height: 7em; */
+	
 }
 
 #stats div {
 	width: 85%;
-	/* has to be px b/c some have 2 some have 3 lines and makes diff height */
-	/* height: 200px;  */
+	
 	margin: auto;
 }
 
-#stats .column {
-	/* border: 2px solid rgba(121, 117, 122, 0.2); */
-	/* border-radius:0.4em; */
-}
 
 
-#helpOptions {
-	/* display: grid; */
-	/* grid-template-columns: 33% 33% 33%; */
-	/* grid-template-columns: 50% 50%; */
-	/* width: 80%; */
-	/* margin: auto; */
 
-	/* text-transform: uppercase; */
-}
-
-#helpOptions span {
-	/* margin: 5% 10%; */
-	/* border-radius: 0.5em; */
-	/* background-color: rgba(255, 255, 255, 0.8); */
-	/* border: 0.5px solid #9C9FB7; */
-}
-
-#helpOptions div {
-	/* width: 40%; */
-	/* height: 90%; */
-	/* margin: 8% auto; */
-	/* padding: 7%; */
-	/* width: 80%; */
-	/* height: 80%; */
-	/* margin: auto; */
-}
-
-#helpOptions p {
-	/* margin: 5% 0; */
-}
-
-/* .row {
-	display: grid;
-	grid-template-columns: 50% 50%;
-	margin: auto;
-} */
 
 .row {
 	display: -ms-grid;
@@ -3775,12 +3589,7 @@ a, a:visited {
 } 
 
 .box {
-	/*max-wdith: */
-   /* not doing anything*/
-	/*height: 20%;*/
-
-   /*width: 80%;*/
-   /*margin: auto 2%;*/
+	
    padding: 0 6%;	
 
    font-size: 0.9em;
@@ -3825,7 +3634,6 @@ a, a:visited {
 	width: 100%;
 }
 
-/* circle makes it look larger */
 #organizers #wincIcon {
 	width: 70%;
 }
@@ -3847,7 +3655,6 @@ a, a:visited {
 }
 
 #sponsors .row {
-	/* for when there are more sponsors */
 	grid-template-columns: 33% 33% 33%;
 
 	margin-top: 5%;
@@ -3864,10 +3671,7 @@ a, a:visited {
 	margin: auto;
 	display: -webkit-flex;
 	align-items: flex-start;
-	/* display:flex; */
-	/* justify-content: center; */
-	/* align-items: center; */
-	/* padding: 7%; */
+	
 }
 
 #sponsors .sponsorIcon {
@@ -3883,7 +3687,7 @@ a, a:visited {
 #committee .row {
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
-}
+} */
 
 /* table{
 	margin-right: 10%;
@@ -3896,7 +3700,7 @@ a, a:visited {
 	text-align: left;
   } */
 
-.buttonCom {
+/* .buttonCom {
 	background-color: #ffffff; 
 	opacity:0.3;
 	border: none;
@@ -3952,9 +3756,6 @@ a, a:visited {
 	border: 3px solid white;
 }
 
-#team span img:nth-of-type(1) {
-	/* border: 3px solid black; */
-}
 
 #team h6 {
 	margin-top: 0;
@@ -3975,14 +3776,12 @@ a, a:visited {
 }
 
 .daySocialMediaBackground {
-	/* background-color: rgba(255, 255, 255, 0.5); */
 	background: url("day-mountains.png");
 	opacity: 1;
 	background-size: cover;
 }
 
 .nightSocialMediaBackground {
-	/* background-color: rgba(255, 255, 255, 0.25); */
 	background: url("mountains_only.png");
 	opacity: 0.4;
 	background-size: cover;
@@ -3991,10 +3790,8 @@ a, a:visited {
 #socialMedia #email {
 	font-size: 0.6em;
 	padding-bottom: 2%;
-	/* color: #9c9ca8; */
 }
 
-/* Tooltip container */
 .tooltip {
 	position: relative;
 	display: inline-block;
@@ -4048,10 +3845,10 @@ a, a:visited {
 	font-size: 0.5em;
 	margin-top: 0.5%;
 	margin-bottom: 0;
-}
+} */
 
 /*CSS for making website adabtable*/
-@viewport {
+/* @viewport {
 	width: device-width;
 	zoom: 1.0;
 }
@@ -4090,7 +3887,7 @@ a, a:visited {
 	}
 
 	#cloud1 {
-		/* width: 15%; */
+		
 		animation: MoveUpDown1 11s linear infinite;
 		position: absolute;
 		left: 70%;
@@ -4127,9 +3924,9 @@ a, a:visited {
 	  @keyframes MoveUpDown3 {
 		0%, 100% { top: 88%; left: 57%}
 		50% { top: 91%; left: 62%; }
-	  }
+	  } */
 
-	#about {
+	/* #about {
 		display: block;
 	}
 
@@ -4148,8 +3945,7 @@ a, a:visited {
 	
 	#stats div {
 		width: 85%;
-		/* has to be px b/c some have 2 some have 3 lines and makes diff height */
-		/* height: 200px;  */
+		
 		margin: auto;
 	}
 
@@ -4170,9 +3966,9 @@ a, a:visited {
 		width: 100px;
 		height: 100px;
 	}
-}
+} */
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
 	body {
 		font-size: 16px;
 	}
@@ -4188,9 +3984,9 @@ a, a:visited {
 
 	#balloon03 {
 		opacity: 0.3;
-	}
+	} */
 
-	#balloon04 {
+	/* #balloon04 {
 		animation: MoveBalloon04 19s linear infinite;
 		position: absolute;
 		left: 12%;
@@ -4225,9 +4021,9 @@ a, a:visited {
 
 	#organizers .row {
 		width: 70%;
-	}
+	} */
 
-	#sponsors .row {
+	/* #sponsors .row {
 		grid-template-columns: 50% 50%;
 		margin-top: 5%;
 	}
@@ -4255,10 +4051,11 @@ a, a:visited {
 
 	#socialMedia h6 {
 		font-size: 0.8em;
-		/* color: #040407; */
+		/* color: #040407; 
 	}
 	
 	#socialMedia #copyright {
 		font-size: 0.6em;
-		/* color: #040407; */
-	}
+		/* color: #040407; 
+	} */
+/*duplicate part -------------------------------------------------------------------------------------------------------------------- */
