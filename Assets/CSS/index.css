@@ -1926,6 +1926,10 @@ a, a:visited {
 		font-size: 18px;
 	}
 
+	#quickIcon #simpleEmail {
+		display: none;
+	}
+
 	#cloud0-5 {
 		width: 25%;
 		animation: MoveUpDown0-5 10s linear infinite;
@@ -1994,6 +1998,11 @@ a, a:visited {
 		50% { top: 91%; left: 62%; }
 	  }
 
+
+	/* #title {
+		padding: 20% 0 1%;
+	} */
+	  
 	#about {
 		display: block;
 	}
@@ -2127,6 +2136,7 @@ a, a:visited {
 		font-size: 0.6em;
 		/* color: #040407; */
 	}
+}
 
 
 
