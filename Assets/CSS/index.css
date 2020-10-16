@@ -2085,11 +2085,11 @@ a, a:visited {
 		position: absolute;
 		left: 85%;
 		top: 21%;
-		width: 55%;
+		width: 65%;
 	  }
 	  @keyframes whale_girl {
-		0%, 100% { top: 49%; left: 13%}
-		50% { top: 51%; left: 20%; }
+		0%, 100% { top: 49%; left: 10%}
+		50% { top: 51%; left: 16%; }
 	  }
 	
 	  #crane1 {
