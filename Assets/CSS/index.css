@@ -2072,7 +2072,7 @@ a, a:visited {
 		position: absolute;
 		left: 85%;
 		top: 21%;
-		width: 12%
+		width: 14%
 		/* opacity: 1; */
 	}
 	@keyframes MoveBalloonC {
@@ -2085,11 +2085,11 @@ a, a:visited {
 		position: absolute;
 		left: 85%;
 		top: 21%;
-		width: 44%;
+		width: 55%;
 	  }
 	  @keyframes whale_girl {
-		0%, 100% { top: 49%; left: 15%}
-		50% { top: 51%; left: 22%; }
+		0%, 100% { top: 49%; left: 13%}
+		50% { top: 51%; left: 20%; }
 	  }
 	
 	  #crane1 {
