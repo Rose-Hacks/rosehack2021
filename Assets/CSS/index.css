@@ -2152,6 +2152,20 @@ a, a:visited {
 		50% { top: 12.5%; left: 62%; }
 	  }
 
+	  
+  #wheelchair_balloon {
+	animation: wheelchair_balloon 21s linear infinite;
+	position: absolute;
+	left: 85%;
+	top: 61%;
+	width: 12%;
+	/* opacity: ; */
+  }
+  @keyframes wheelchair_balloon {
+	0%, 100% { top: 10%; left: 79%}
+	50% { top: 14%; left: 82%; }
+  }
+
 	body {
 		font-size: 16px;
 	}
