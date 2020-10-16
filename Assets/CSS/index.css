@@ -2059,12 +2059,12 @@ a, a:visited {
 		  transform: scaleX(-1);
 		left: 85%;
 		top: 21%;
-		width: 12%;
+		width: 15%;
 		/* opacity: 0.6; */
 	}
 	  @keyframes MoveBalloonB {
-		0%, 100% { top: 10%; left: 4%}
-		50% { top: 6%; left: 9%; }
+		0%, 100% { top: 6%; left: 4%}
+		50% { top: 4%; left: 8%; }
 	}
 	
 	#balloonC {
@@ -2072,7 +2072,7 @@ a, a:visited {
 		position: absolute;
 		left: 85%;
 		top: 21%;
-		width: 10%;
+		width: 12%
 		/* opacity: 1; */
 	}
 	@keyframes MoveBalloonC {
@@ -2085,11 +2085,11 @@ a, a:visited {
 		position: absolute;
 		left: 85%;
 		top: 21%;
-		width: 32%;
+		width: 44%;
 	  }
 	  @keyframes whale_girl {
-		0%, 100% { top: 49%; left: 20%}
-		50% { top: 51%; left: 24%; }
+		0%, 100% { top: 49%; left: 15%}
+		50% { top: 51%; left: 22%; }
 	  }
 	
 	  #crane1 {
@@ -2157,7 +2157,7 @@ a, a:visited {
 	}
 
 	#title {
-		padding: 28% 0 1%;
+		padding: 35% 0 1%;
 	}
 
 	#quickIcon {
