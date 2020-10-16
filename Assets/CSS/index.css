@@ -2166,6 +2166,120 @@ a, a:visited {
 	50% { top: 14%; left: 82%; }
   }
 
+  #belltower {
+	  opacity: 0;
+  }
+
+  #cloudG {
+	animation: MoveUpDownG 19s linear infinite;
+	position: absolute;
+	left: 35%;
+	top: 135%;
+	opacity: 0.15;
+  }
+  
+  @keyframes MoveUpDownG {
+	0%, 100% { top: 135%; left: 35%}
+	50% { top: 133%; left: 38%; }
+  }
+
+  #cloudH {
+	animation: MoveUpDownH 12s linear infinite;
+	position: absolute;
+	left: 65%;
+	top: 80%;
+	opacity: 0.4;
+  }
+  
+  @keyframes MoveUpDownH {
+	0%, 100% { top: 101%; left: 68%}
+	50% { top: 95%; left: 66%; }
+  }
+  
+  #cloudI {
+	animation: MoveUpDownI 11s linear infinite;
+	position: absolute;
+	left: 7%;
+	top: 100%;
+	opacity: 0.7;
+	width: 45%
+  }
+  
+  @keyframes MoveUpDownI {
+	0%, 100% { top: 87%; left: -2%}
+	50% { top: 90%; left: -4%; }
+  }
+
+  #cloudJ {
+	animation: MoveUpDownJ 9s linear infinite;
+	position: absolute;
+	left: -5%;
+	top: 80%;
+	opacity: 0.55;
+  }
+  
+  @keyframes MoveUpDownJ {
+	0%, 100% { top: 86%; left: 1%}
+	50% { top: 90%; left: 3%; }
+  }
+
+  #cloudK {
+	animation: MoveUpDownK 15s linear infinite;
+	position: absolute;
+	left: 42%;
+	top: -3%;
+	opacity: 0.6;
+	height: 7%;
+	width: 23%;
+  }
+  
+  @keyframes MoveUpDownK {
+	0%, 100% { top: 92%; left: 23%}
+	50% { top: 90%; left: 24%; }
+  }
+
+
+  #cloudL{
+	animation: MoveUpDownL 17s linear infinite;
+	position: absolute;
+	left: 2%;
+	top: -2%;
+	opacity: 0.6;
+  }
+  
+  @keyframes MoveUpDownL {
+	0%, 100% { top: 85%; left: -1%}
+	50% { top: 86%; left: -2%; }
+  }
+  
+ #cloudM{
+	animation: MoveUpDownM 17s linear infinite;
+	position: absolute;
+	left: 2%;
+	top: -2%;
+	opacity: 0.6;
+	width: 15%;
+  }
+  
+  @keyframes MoveUpDownM {
+	0%, 100% { top: 85%; left: 18%}
+	50% { top: 82%; left: 15%; }
+  }
+
+  #cloudN{
+	animation: MoveUpDownN 17s linear infinite;
+	position: absolute;
+	left: 2%;
+	top: -2%;
+	opacity: 0.6;
+	height: 6%;
+	width: 20%;
+  }
+  
+  @keyframes MoveUpDownN {
+	0%, 100% { top: 89%; left: 33%}
+	50% { top: 88%; left: 30%; }
+  }
 	body {
 		font-size: 16px;
 	}
