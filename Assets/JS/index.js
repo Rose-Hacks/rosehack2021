@@ -214,7 +214,7 @@ var x = setInterval(function() {
 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("countdown").innerHTML = "ROSE HACK ENDS ON AUGUST 8TH AT 12:00 PM PST";
+        document.getElementById("countdown").innerHTML = "VIRTUAL ROSE HACK HAS BEGUN!";
     }
     else if (minutes <= 0 && hours <= 0 && days <= 0) {
 
