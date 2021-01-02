@@ -198,7 +198,7 @@ if (document.body) {
 }
 
 // calculates what to display for countdown timer
-var countDownDate = new Date("Jan 16, 2021 08:00:00").getTime();
+var countDownDate = new Date("Jan 16, 2021 12:00:00").getTime();
 // Update every second
 var x = setInterval(function() {
     var now = new Date().getTime();
