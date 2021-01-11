@@ -432,8 +432,8 @@ h1, h2, h3 {
   }
    
   @keyframes MoveUpDown3 {
-	0%, 100% { top: 89%; left: 70%}
-	50% { top: 90%; left: 76%; }
+	0%, 100% { top: 99%; left: 70%}
+	50% { top: 97%; left: 76%; }
   }
 
   /* @keyframes MoveUpDown3 {
@@ -1423,6 +1423,10 @@ a, a:visited {
 }
 
 #conductCode:hover {
+	text-decoration: underline;
+}
+
+#mentform:hover {
 	text-decoration: underline;
 }
 /* #about #help {
