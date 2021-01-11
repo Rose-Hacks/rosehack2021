@@ -13,7 +13,7 @@ var quickIcon = document.getElementById("quickIcon");
 // switches btn day/night theme based on time
 var currentTime = new Date().getHours();
 if (document.body) {
-    if (7 <= currentTime && currentTime < 24) {
+    if (7 <= currentTime && currentTime < 19) {
         $(".objectsDay").show();
         $(".objectsNight").hide();
 
@@ -198,7 +198,7 @@ if (document.body) {
 }
 
 // calculates what to display for countdown timer
-var countDownDate = new Date("Jan 16, 2021 08:00:00").getTime();
+var countDownDate = new Date("Jan 16, 2021 12:00:00").getTime();
 // Update every second
 var x = setInterval(function() {
     var now = new Date().getTime();
@@ -214,7 +214,7 @@ var x = setInterval(function() {
 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("countdown").innerHTML = "ROSE HACK ENDS ON AUGUST 8TH AT 12:00 PM PST";
+        document.getElementById("countdown").innerHTML = "VIRTUAL ROSE HACK HAS BEGUN!";
     }
     else if (minutes <= 0 && hours <= 0 && days <= 0) {
 
