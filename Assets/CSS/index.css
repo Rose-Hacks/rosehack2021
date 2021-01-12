@@ -1750,6 +1750,21 @@ a, a:visited {
 	width: 100%;
 }
 
+#sponsors #sf {
+	width: 95%;
+	margin: auto;
+}
+
+#sponsors .longs {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#sponsors #lp {
+	width: 135%;
+	margin: auto;
+}
+
 #committee{
 	width: 80%;
 	margin: auto;
