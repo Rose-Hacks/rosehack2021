@@ -1352,7 +1352,7 @@ a, a:visited {
 
 #milestones {
 	border-radius: 1.0em;
-	margin: 5% 0;
+	margin: 3% 0;
 	/* padding: 0.2% 0; */
 	padding: 1%;
 	font-size: 1.8em;
@@ -1374,6 +1374,7 @@ a, a:visited {
 #milestonesdiv {
 	padding: 11%;
 	padding-top:0.2%;
+	padding-bottom: 5.5%;
 	position: relative;
 	z-index: 1;
 }
@@ -1405,19 +1406,19 @@ a, a:visited {
 } */
 
 #about {
-	display: -ms-grid;
+	/* display: -ms-grid;
 	display: grid;
 	-ms-grid-columns: 45% 55%;
-	    grid-template-columns: 45% 55%;
+	    grid-template-columns: 45% 55%; */
 	margin-bottom: 8%;
 	position: relative;
 }
 
 #about #aboutUs {
-	text-align: left;
-	padding-top: 15%;
-	padding-left: 14%;
-	padding-right: 2%;
+	text-align: center;
+	/* padding-top: 1%; */
+	padding-left: 8%;
+	padding-right: 8%;
 	/* width: 38%; */
 	/* margin: auto; */
 }
@@ -1429,24 +1430,15 @@ a, a:visited {
 #mentform:hover {
 	text-decoration: underline;
 }
+
+
 /* #about #help {
 	display: grid;
 	grid-template-columns: 50% 50%;
-	padding-top: 0;
-	width: 90%;
-	margin: auto;
-	text-transform: uppercase;
-} */
-
-#about #help {
-	display: grid;
-	grid-template-columns: 50% 50%;
-	/* grid-template-rows: 40% 40%; */
 	padding: 0;
 	width: 90%;
 	margin: auto;
 	margin-top: 0;
-
 	text-transform: uppercase;
 }
 
@@ -1455,54 +1447,14 @@ a, a:visited {
 	padding: 1%;
 	margin: 10% auto;
 	border-radius: 0.3em;
-	/* vertical-align: middle; */
-}
-
-#help .row {
-	/* width: 60%; */
-}
-
-#help span {
-	/* width: 55%; */
-	/* margin: auto; */
-}
-
-#help .helpIcon {
-	/* width: 100%; */
-}
-
-#about #help .helpBox {
-	/* margin: 5% 10%; */
-	/* padding: 1%; */
-	/* border-radius: 0.5em; */
-	/* display: block; */
-	/* vertical-align: middle; */
-}
-
-#about #help .grow {
-	/* height: 100%; */
-	/* padding: 1%; */
-	/* heigh: 80%; */
-	/* margin: auto; */
-}
-
-#about #help a {
-	/* height: 100%; */
-	/* width: 100%; */
+	
 }
 
 #about #help img {
 	padding: 4%;
-	/* margin: 4%; */
-	/* text-align: center; */
-	/* margin: auto; */
-	/* margin-top: auto; */
-	/* position: relative; */
-	/* vertical-align: middle; */
 }
 
 #about #help #workshop {
-	/* height: 65%; */
 	padding-top: 10%;
 }
 
@@ -1515,20 +1467,9 @@ a, a:visited {
 	opacity: 70%;
 }
 
-#about #help div {
-	/* width: 60%; */
-	/* height: 90%; */
-	/* margin: 8% auto; */
-	/* padding: 7%; */
-	/* width: 80%; */
-	/* height: 80%; */
-	/* margin: auto; */
-}
-
 #about #help p {
 	margin: 5% 0;
-	/* font-size: 100%; */
-}
+} */
 
 #about span #volmsg {
 	padding: 0 5%;
@@ -2493,7 +2434,6 @@ a, a:visited {
 		/* color: #040407; */
 	}
 }
-<<<<<<< HEAD
 
 #socialMedia #copyright {
 	font-size: 0.5em;
@@ -2713,5 +2653,3 @@ a, a:visited {
 		/* color: #040407; 
 	} */
 /*duplicate part -------------------------------------------------------------------------------------------------------------------- */
-=======
->>>>>>> dcf1ea1d597cb0649da4147043482ac301f4fa97
